@@ -7,7 +7,7 @@
 //
 
 #import "DataConfParam.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 
 @interface DataConfParam (StructParse)
 /**

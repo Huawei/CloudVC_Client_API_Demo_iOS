@@ -15,20 +15,7 @@
 #import "LoginInfo.h"
 #import "SettingViewController.h"
 #import "LoginAuthorizeInfo.h"
-#import "call_interface.h"
-
-NSString *const USER_ACCOUNT        = @"USER_ACCOUNT";
-NSString *const USER_PASSWORD       = @"USER_PASSWORD";
-NSString *const USER_PROXYSERVER_ADDRESS = @"USER_PROXYSERVER_ADDRESS";
-NSString *const USER_REGSERVER_ADDRESS  = @"USER_REGSERVER_ADDRESS";
-NSString *const USER_SERVER_PORT        = @"USER_SERVER_PORT";
-
-NSString *const USER_SIP_ACCOUNT        = @"USER_SIP_ACCOUNT";
-NSString *const USER_SIP_PASSWORD       = @"USER_SIP_PASSWORD";
-NSString *const USER_SIP_PROXYSERVER_ADDRESS = @"USER_SIP_PROXYSERVER_ADDRESS";
-NSString *const USER_SIP_REGSERVER_ADDRESS  = @"USER_SIP_REGSERVER_ADDRESS";
-NSString *const USER_SIP_SERVER_PORT        = @"USER_SIP_SERVER_PORT";
-
+#import "HuaweiSDKService/call_interface.h"
 
 @interface LoginViewController ()<LoginServiceDelegate>
 {

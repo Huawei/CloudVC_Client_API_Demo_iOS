@@ -17,8 +17,8 @@
 #include <sys/sysctl.h>
 #import "ManagerService.h"
 #include <string.h>
-#import "call_interface.h"
-#import "call_advanced_interface.h"
+#import "HuaweiSDKService/call_interface.h"
+#import "HuaweiSDKService/call_advanced_interface.h"
 //#import "securec.h"
 #import <UIKit/UIKit.h>
 #import "Initializer.h"
@@ -26,7 +26,7 @@
 #import "LoginInfo.h"
 #import "CommonUtils.h"
 #import "CallLogMessage.h"
-#import "TupContactsSDK.h"
+#import "HuaweiSDKService/TupContactsSDK.h"
 
 NSString *const NTF_AUDIOROUTE_CHANGED = @"NTF_AUDIOROUTE_CHANGED";
 

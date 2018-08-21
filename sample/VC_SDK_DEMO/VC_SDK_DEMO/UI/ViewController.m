@@ -10,7 +10,6 @@
 #import "AppDelegate.h"
 #import "LoginViewController.h"
 #import "ManagerService.h"
-#import "UIViewController+CurrentViewController.h"
 #import "DataConfBaseViewController.h"
 
 @interface ViewController ()<LoginServiceDelegate>
@@ -76,15 +75,5 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    UIViewController *currentCtrl = [UIViewController currentViewController];
-    
-    if ([currentCtrl isKindOfClass:[DataConfBaseViewController class]]) {
-        return [currentCtrl supportedInterfaceOrientations];
-    }
-    return UIInterfaceOrientationMaskPortrait;
-
-}
 
 @end

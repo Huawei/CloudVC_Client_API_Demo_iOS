@@ -7,8 +7,8 @@
 //
 
 #import "CallInfo.h"
-#import "call_def.h"
-#import "call_advanced_def.h"
+#import "HuaweiSDKService/call_def.h"
+#import "HuaweiSDKService/call_advanced_def.h"
 
 @interface CallInfo (StructParase)
 + (CallInfo *)transfromFromCallInfoStract:(CALL_S_CALL_INFO *)callInfo;

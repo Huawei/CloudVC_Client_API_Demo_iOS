@@ -8,8 +8,6 @@
 
 #import "NetworkUtils.h"
 
-NSString *const NETWORK_STATUS_CHAGNE_NOTIFY = @"NETWORK_STATUS_CHAGNE_NOTIFY";
-
 @interface NetworkUtils()
 
 @property (nonatomic) VCReachability *internetReachability;

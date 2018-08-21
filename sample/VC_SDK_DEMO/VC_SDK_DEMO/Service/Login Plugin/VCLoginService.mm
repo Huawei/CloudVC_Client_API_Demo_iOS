@@ -15,14 +15,14 @@
 #include <arpa/inet.h>
 #include <dlfcn.h>
 #include <sys/sysctl.h>
-#import "login_interface.h"
+#import "HuaweiSDKService/login_interface.h"
 #import "LoginInfo.h"
 #import "Initializer.h"
-#import "login_def.h"
+#import "HuaweiSDKService/login_def.h"
 #import "LoginCenter.h"
 #import "CommonUtils.h"
 #import "ManagerService.h"
-#import "call_interface.h"
+#import "HuaweiSDKService/call_interface.h"
 #import "LoginAuthorizeInfo.h"
 
 #define NEEDMAALOGIN 0  // 是否需要MAA登陆

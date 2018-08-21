@@ -7,7 +7,7 @@
 //
 
 #import "ConfAttendee.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 @interface ConfAttendee (StructParase)
 +(ConfAttendee *)returnConfAttendeeWith:(CONFCTRL_S_ATTENDEE)attendee;
 @end

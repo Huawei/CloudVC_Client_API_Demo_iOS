@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ECSLogger.h"
 
 #define RETURN_NO_IF_NIL(result)     if(result == nil || !result || result == NULL){return NO;}
 #define RETURN_IF_NSSTRING_NIL(result)     if(result == nil || !result || result == NULL || [result isEqualToString:@""]){return;}
@@ -14,6 +15,12 @@
 #define RETURN_IF_NIL(result)     if(result == nil || !result || result == NULL){return;}
 #define RETURN_NO_IF_FAIL(result)  do { if (result == TUP_FAIL) { return NO; } } while(0)
 #define SDK_CONFIG_RESULT(result)  (((TUP_SUCCESS) == result)?@"YES":[NSString stringWithFormat:@"NO error =%d",result])
+
+#define UIStretchableImage(imageName)                    [UIImage stretchableImageNamed:imageName]
+#define UIStretchableImageR(imageName, width, height)    [UIImage stretchableImageNamed:imageName relativeImageWidth:width relativeImageHeight:height]
+#define UIStretchableImageA(imageName, width, height)    [UIImage stretchableImageNamed:imageName withLeftCapWidth:width topCapHeight:height]
+
+#define ESPACE_DEVICE_ORIENTATION_CHANGED   @"#define ESPACE_DEVICE_ORIENTATION_CHANGED"
 
 #define EC_SET_CONF_MODE_NOTIFY  @"EC_SET_CONF_MODE_NOTIFY"
 #pragma mark - Call
@@ -40,6 +47,12 @@ extern NSString *const TUP_CALL_DECODE_SUCCESS_NOTIFY;
 extern NSString *const TUP_CALL_REFRESH_VIEW_NOTIFY;
 
 extern NSString *const TUP_CALL_REMOVE_CALL_VIEW_NOTIFY;
+extern NSString *const USER_ACCOUNT;
+extern NSString *const USER_PASSWORD;
+extern NSString *const SERVER_CONFIG;
+
+extern NSString *const NETWORK_STATUS_CHAGNE_NOTIFY;
+extern NSString *kReachabilityChangedNotification;
 
 /**
  *This enum is about call enum
@@ -593,6 +606,50 @@ typedef NS_ENUM(NSUInteger, VC_ATTENDEE_UPDATE_E) {
     VC_ATTENDEE_UPDATE_NUMBER,
     VC_ATTENDEE_UPDATE_BUTT
 };
+
+typedef enum
+{
+    AUDIO_ANSWER_COMMING_CALL,
+    VIDEO_ANSWER_COMMING_CALL,
+    REFUSE_COMMING_CALL
+}COMMING_VIEW_BTNACTION_TYPE;
+
+typedef enum
+{
+    JOIN_CALL_BUTTON,
+    CLOSE_CALL_BUTTON,
+    CHANGE_SOUND_ROUTE_BUTTON,
+    DIAL_NUMBER_BUTTON,
+    CHANGE_CALL_TYPE_BUTTON,
+    CLOSE_CAMERA_BUTTON,
+    SWITCH_CAMERA_BUTTON,
+    ROUTE_BUTTON,
+    MUTE_MIC_BUTTON,
+    SITE_LIST_BUTTON,
+    DATA_CONFERENCE_BUTTON
+}CALL_TOOLBAR_BUTTON_TYPE;
+
+typedef NS_ENUM(NSUInteger, EmptyDataOption) {
+    ESpaceEDONoChatHistory = 1,
+    ESpaceEDONoCallHistory,
+    ESpaceEDONoContact,
+    ESpaceEDONoGroup,
+    ESpaceEDONoABPremission,
+    ESpaceEDONoLocalContact,
+    ESpaceEDONoSearchResult,
+    ESpaceEDONoConference,
+    ESpaceEDONoPublicAccount,
+    ESpaceEDONoPAChatHistory,
+    ESPaceEDONoVoiceMail,
+    ESPaceEDONoAddedContact,
+    ESpaceEDONoDeptData
+};
+
+typedef enum : NSInteger {
+    NotReachable = 0,
+    ReachableViaWiFi,
+    ReachableViaWWAN
+} NetworkStatus;
 
 @interface Defines : NSObject
 

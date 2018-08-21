@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TupContactsSDK.h"
+#import "HuaweiSDKService/TupContactsSDK.h"
 @interface ContactDetailViewController : UITableViewController
 @property(nonatomic,strong)TupContact *contact;
 @end

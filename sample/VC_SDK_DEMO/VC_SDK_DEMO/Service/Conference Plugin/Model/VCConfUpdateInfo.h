@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Defines.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 
 @interface VCConfUpdateInfo : NSObject
 @property(nonatomic, assign) int ucM;

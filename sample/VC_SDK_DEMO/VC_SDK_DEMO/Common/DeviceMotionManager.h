@@ -7,8 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-#define ESPACE_DEVICE_ORIENTATION_CHANGED   @"#define ESPACE_DEVICE_ORIENTATION_CHANGED"
+#import "Defines.h"
 
 @interface DeviceMotionManager : NSObject
 

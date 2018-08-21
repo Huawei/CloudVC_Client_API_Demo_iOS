@@ -8,7 +8,7 @@
 
 #import "ECConfInfo+StructParase.h"
 #import "CommonUtils.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 
 @implementation ECConfInfo (StructParase)
 

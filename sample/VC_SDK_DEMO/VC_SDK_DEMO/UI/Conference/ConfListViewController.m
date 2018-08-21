@@ -53,7 +53,12 @@ typedef NS_ENUM(NSInteger, ESpaceConfListSection){
     [super viewWillAppear:animated];
 
     [self.navigationController setNavigationBarHidden:NO animated:YES];
-    [CommonUtils setToOrientation:UIDeviceOrientationPortrait];
+    
+    if (UIDeviceOrientationPortrait != [[UIDevice currentDevice] orientation])
+    {
+        [[UIDevice currentDevice] setValue:[NSNumber numberWithInt:UIDeviceOrientationPortrait] forKey:@"orientation"];
+    }
+//    [CommonUtils setToOrientation:UIDeviceOrientationPortrait];
     
     [ManagerService confService].delegate = self;
     

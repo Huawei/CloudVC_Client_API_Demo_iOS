@@ -6,7 +6,7 @@
 //  Copyright(C), 2017, Huawei Tech. Co., Ltd. ALL RIGHTS RESERVED.
 //
 #import <Foundation/Foundation.h>
-#import "call_advanced_def.h"
+#import "HuaweiSDKService/call_advanced_def.h"
 
 typedef enum
 {

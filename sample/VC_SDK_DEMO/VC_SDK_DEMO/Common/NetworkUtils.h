@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "VCReachability.h"
-
-extern NSString *const NETWORK_STATUS_CHAGNE_NOTIFY;    
+#import "Defines.h"
 
 @interface NetworkUtils : NSObject
 /**

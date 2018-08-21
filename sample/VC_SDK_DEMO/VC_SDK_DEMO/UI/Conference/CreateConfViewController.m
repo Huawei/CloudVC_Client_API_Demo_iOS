@@ -12,7 +12,7 @@
 #import "ConfAttendee.h"
 #import "LoginInfo.h"
 #import "MeetingDatePickViewController.h"
-#import "call_advanced_def.h"
+#import "HuaweiSDKService/call_advanced_def.h"
 #import "ConfRunningViewController.h"
 #import "AttendeeTableView.h"
 

@@ -89,6 +89,13 @@ NSString *const TUP_CALL_REFRESH_VIEW_NOTIFY = @"TUP_CALL_REFRESH_VIEW_NOTIFY";
 
 NSString *const TUP_CALL_REMOVE_CALL_VIEW_NOTIFY = @"TUP_CALL_REMOVE_CALL_VIEW_NOTIFY";
 
+NSString *const USER_ACCOUNT        = @"USER_ACCOUNT";
+NSString *const USER_PASSWORD       = @"USER_PASSWORD";
+NSString *const SERVER_CONFIG       = @"SERVER_CONFIG";
+
+NSString *const NETWORK_STATUS_CHAGNE_NOTIFY = @"NETWORK_STATUS_CHAGNE_NOTIFY";
+NSString *kReachabilityChangedNotification = @"kNetworkReachabilityChangedNotification";
+
 @implementation Defines
 
 @end

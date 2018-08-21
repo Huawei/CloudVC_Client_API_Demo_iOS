@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "login_def.h"
+#import "HuaweiSDKService/login_def.h"
 
 @interface LoginServerInfo : NSObject
 

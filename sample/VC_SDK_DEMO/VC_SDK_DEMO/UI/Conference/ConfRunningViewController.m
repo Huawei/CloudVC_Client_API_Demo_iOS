@@ -18,7 +18,7 @@
 #import "VideoShareViewController.h"
 #import "DataShareViewController.h"
 #import "DialSecondPlate.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 
 #import "ChatMsg.h"
 #import "EAGLView.h"

@@ -7,7 +7,7 @@
 //
 
 #import "CallHistoryCell.h"
-#import "TupHistory.h"
+#import "HuaweiSDKService/TupHistory.h"
 
 @interface CallHistoryCell()
 @property (weak, nonatomic) IBOutlet UIImageView *callTypeImageView;    // show callType image view

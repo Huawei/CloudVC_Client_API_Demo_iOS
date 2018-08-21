@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "tup_def.h"
-#import "tup_confctrl_def.h"
-#import "tup_confctrl_interface.h"
-#import "tup_conf_baseapi.h"
+#import "HuaweiSDKService/tup_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_interface.h"
+#import "HuaweiSDKService/tup_conf_baseapi.h"
 
 @interface Notification : NSObject
 @property (nonatomic, assign)TUP_UINT32 msgId;    // the message ID

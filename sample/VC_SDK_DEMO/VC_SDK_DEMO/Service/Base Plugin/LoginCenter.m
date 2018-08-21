@@ -12,15 +12,12 @@
 #import "LoginServerInfo+uportalInfo.h"
 #include <arpa/inet.h>
 
-#import "login_def.h"
-#import "login_interface.h"
-#import "call_interface.h"
-#import "call_advanced_interface.h"
+#import "HuaweiSDKService/login_def.h"
+#import "HuaweiSDKService/login_interface.h"
+#import "HuaweiSDKService/call_interface.h"
+#import "HuaweiSDKService/call_advanced_interface.h"
 #import "CommonUtils.h"
-#import "TupContactsSDK.h"
-#import "LoginViewController.h"
-
-#define SERVER_CONFIG   @"SERVER_CONFIG"
+#import "HuaweiSDKService/TupContactsSDK.h"
 
 NSNotificationName const UPORTAL_TOKEN_REFRESH_NOTIFY = @"UPORTAL_TOKEN_REFRESH_NOTIFY";
 NSNotificationName const CALL_SIP_REGISTER_STATUS_CHANGED_NOTIFY = @"CALL_SIP_REGISTER_STATUS_CHANGED_NOTIFY";

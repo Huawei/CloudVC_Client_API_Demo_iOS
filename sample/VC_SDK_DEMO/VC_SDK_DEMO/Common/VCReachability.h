@@ -9,20 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <netinet/in.h>
-
-
-typedef enum : NSInteger {
-	NotReachable = 0,
-	ReachableViaWiFi,
-	ReachableViaWWAN
-} NetworkStatus;
+#import "Defines.h"
 
 #pragma mark IPv6 Support
 //VCReachability fully support IPv6.  For full details, see ReadMe.md.
-
-
-extern NSString *kReachabilityChangedNotification;
-
 
 @interface VCReachability : NSObject
 

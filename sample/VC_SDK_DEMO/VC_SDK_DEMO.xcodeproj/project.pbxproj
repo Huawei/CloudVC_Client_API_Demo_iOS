@@ -45,7 +45,6 @@
 		1258C1EE1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1ED1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m */; };
 		1258C1F11F3AA01800654D80 /* LoginServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1F01F3AA01800654D80 /* LoginServerInfo.m */; };
 		1258C1F71F3C828000654D80 /* DeviceMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1F61F3C828000654D80 /* DeviceMotionManager.m */; };
-		12627AF61F413DED00B5E4F3 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12627AF51F413DED00B5E4F3 /* UIViewController+CurrentViewController.m */; };
 		12627AFA1F42D6AF00B5E4F3 /* VidePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12627AF91F42D6AF00B5E4F3 /* VidePreviewController.m */; };
 		12627AFD1F42EE8900B5E4F3 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12627AFC1F42EE8900B5E4F3 /* MeViewController.m */; };
 		12627B001F42F7D700B5E4F3 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12627AFF1F42F7D700B5E4F3 /* SettingViewController.m */; };
@@ -79,77 +78,15 @@
 		12C23FC41F31C06D00C21D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C23FC21F31C06D00C21D91 /* Main.storyboard */; };
 		12C23FC61F31C06D00C21D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C23FC51F31C06D00C21D91 /* Assets.xcassets */; };
 		12C23FC91F31C06D00C21D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C23FC71F31C06D00C21D91 /* LaunchScreen.storyboard */; };
-		12C242011F31CAF100C21D91 /* CommonUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 12C242001F31CAF100C21D91 /* CommonUtils.mm */; };
 		12C242091F31CEB600C21D91 /* NetworkUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 12C242061F31CEB600C21D91 /* NetworkUtils.mm */; };
 		12C2420A1F31CEB600C21D91 /* VCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C242081F31CEB600C21D91 /* VCReachability.m */; };
 		12E8EE3B1F53C37100C3F953 /* DataParamSipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8EE3A1F53C37100C3F953 /* DataParamSipInfo.m */; };
 		12E8EE3F1F56740D00C3F953 /* ConfChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8EE3D1F56740D00C3F953 /* ConfChatViewController.m */; };
 		12E8EE401F56740D00C3F953 /* ConfChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E8EE3E1F56740D00C3F953 /* ConfChatViewController.xib */; };
-		410CF1C51FA9A9CA002CB4EC /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF16F1FA9A9CA002CB4EC /* libcrypto.a */; };
-		410CF1C71FA9A9CA002CB4EC /* libhme-audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1711FA9A9CA002CB4EC /* libhme-audio.a */; };
-		410CF1C81FA9A9CA002CB4EC /* libHME-Video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1721FA9A9CA002CB4EC /* libHME-Video.a */; };
-		410CF1C91FA9A9CA002CB4EC /* libHW_MPT_AUDIO_AAC_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1731FA9A9CA002CB4EC /* libHW_MPT_AUDIO_AAC_LIB.a */; };
-		410CF1CA1FA9A9CA002CB4EC /* libHW_MPT_IOS_AMR_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1741FA9A9CA002CB4EC /* libHW_MPT_IOS_AMR_LIB.a */; };
-		410CF1CB1FA9A9CA002CB4EC /* libHW_MPT_IOS_AMRWB_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1751FA9A9CA002CB4EC /* libHW_MPT_IOS_AMRWB_LIB.a */; };
-		410CF1CC1FA9A9CA002CB4EC /* libHW_MPT_IOS_G722_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1761FA9A9CA002CB4EC /* libHW_MPT_IOS_G722_LIB.a */; };
-		410CF1CD1FA9A9CA002CB4EC /* libHW_MPT_IOS_G729AB_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1771FA9A9CA002CB4EC /* libHW_MPT_IOS_G729AB_LIB.a */; };
-		410CF1CE1FA9A9CA002CB4EC /* libHW_MPT_IOS_ILBC_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1781FA9A9CA002CB4EC /* libHW_MPT_IOS_ILBC_LIB.a */; };
-		410CF1CF1FA9A9CA002CB4EC /* libHW_MPT_IOS_OPUS_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1791FA9A9CA002CB4EC /* libHW_MPT_IOS_OPUS_LIB.a */; };
-		410CF1D01FA9A9CA002CB4EC /* libipsi_crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17A1FA9A9CA002CB4EC /* libipsi_crypto.a */; };
-		410CF1D11FA9A9CA002CB4EC /* libipsi_eap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17B1FA9A9CA002CB4EC /* libipsi_eap.a */; };
-		410CF1D21FA9A9CA002CB4EC /* libipsi_http.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17C1FA9A9CA002CB4EC /* libipsi_http.a */; };
-		410CF1D31FA9A9CA002CB4EC /* libipsi_osal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17D1FA9A9CA002CB4EC /* libipsi_osal.a */; };
-		410CF1D41FA9A9CA002CB4EC /* libipsi_pse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17E1FA9A9CA002CB4EC /* libipsi_pse.a */; };
-		410CF1D51FA9A9CA002CB4EC /* libipsi_ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF17F1FA9A9CA002CB4EC /* libipsi_ssl.a */; };
-		410CF1D61FA9A9CA002CB4EC /* libjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1801FA9A9CA002CB4EC /* libjsoncpp.a */; };
-		410CF1D71FA9A9CA002CB4EC /* libKMC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1811FA9A9CA002CB4EC /* libKMC.a */; };
-		410CF1D81FA9A9CA002CB4EC /* libminidopra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1821FA9A9CA002CB4EC /* libminidopra.a */; };
-		410CF1D91FA9A9CA002CB4EC /* libplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1831FA9A9CA002CB4EC /* libplib.a */; };
-		410CF1DA1FA9A9CA002CB4EC /* libsasl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1841FA9A9CA002CB4EC /* libsasl.a */; };
-		410CF1DB1FA9A9CA002CB4EC /* libsdp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1851FA9A9CA002CB4EC /* libsdp.a */; };
-		410CF1DC1FA9A9CA002CB4EC /* libsecurec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1861FA9A9CA002CB4EC /* libsecurec.a */; };
-		410CF1DD1FA9A9CA002CB4EC /* libsipstacktup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1871FA9A9CA002CB4EC /* libsipstacktup.a */; };
-		410CF1DE1FA9A9CA002CB4EC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1881FA9A9CA002CB4EC /* libssl.a */; };
-		410CF1E01FA9A9CA002CB4EC /* libtup_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18A1FA9A9CA002CB4EC /* libtup_base.a */; };
-		410CF1E11FA9A9CA002CB4EC /* libtup_call_audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18B1FA9A9CA002CB4EC /* libtup_call_audio.a */; };
-		410CF1E21FA9A9CA002CB4EC /* libtup_call_bfcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18C1FA9A9CA002CB4EC /* libtup_call_bfcp.a */; };
-		410CF1E31FA9A9CA002CB4EC /* libtup_call_mediacommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18D1FA9A9CA002CB4EC /* libtup_call_mediacommon.a */; };
-		410CF1E41FA9A9CA002CB4EC /* libtup_call_mediaservice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18E1FA9A9CA002CB4EC /* libtup_call_mediaservice.a */; };
-		410CF1E51FA9A9CA002CB4EC /* libtup_call_service.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF18F1FA9A9CA002CB4EC /* libtup_call_service.a */; };
-		410CF1E61FA9A9CA002CB4EC /* libtup_call_sip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1901FA9A9CA002CB4EC /* libtup_call_sip.a */; };
-		410CF1E71FA9A9CA002CB4EC /* libtup_call_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1911FA9A9CA002CB4EC /* libtup_call_video.a */; };
-		410CF1E91FA9A9CA002CB4EC /* libtup_cmpt_service.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1931FA9A9CA002CB4EC /* libtup_cmpt_service.a */; };
-		410CF1EA1FA9A9CA002CB4EC /* libtup_commonlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1941FA9A9CA002CB4EC /* libtup_commonlib.a */; };
-		410CF1EB1FA9A9CA002CB4EC /* libtup_confctrl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1951FA9A9CA002CB4EC /* libtup_confctrl.a */; };
-		410CF1EC1FA9A9CA002CB4EC /* libtup_confmng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1961FA9A9CA002CB4EC /* libtup_confmng.a */; };
-		410CF1ED1FA9A9CA002CB4EC /* libtup_corpdirectory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1971FA9A9CA002CB4EC /* libtup_corpdirectory.a */; };
-		410CF1F01FA9A9CA002CB4EC /* libtup_dns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF19A1FA9A9CA002CB4EC /* libtup_dns.a */; };
-		410CF1F31FA9A9CA002CB4EC /* libtup_exception.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF19D1FA9A9CA002CB4EC /* libtup_exception.a */; };
-		410CF1F41FA9A9CA002CB4EC /* libtup_ftp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF19E1FA9A9CA002CB4EC /* libtup_ftp.a */; };
-		410CF1F61FA9A9CA002CB4EC /* libtup_https_clt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1A01FA9A9CA002CB4EC /* libtup_https_clt.a */; };
-		410CF1F71FA9A9CA002CB4EC /* libtup_https_srv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1A11FA9A9CA002CB4EC /* libtup_https_srv.a */; };
-		410CF1F81FA9A9CA002CB4EC /* libtup_httptrans.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1A21FA9A9CA002CB4EC /* libtup_httptrans.a */; };
-		410CF2041FA9A9CA002CB4EC /* libtup_ipdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1AE1FA9A9CA002CB4EC /* libtup_ipdetect.a */; };
-		410CF2051FA9A9CA002CB4EC /* libtup_ldap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1AF1FA9A9CA002CB4EC /* libtup_ldap.a */; };
-		410CF2061FA9A9CA002CB4EC /* libtup_ldapdisasterrecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B01FA9A9CA002CB4EC /* libtup_ldapdisasterrecovery.a */; };
-		410CF2071FA9A9CA002CB4EC /* libtup_ldapfrontstage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B11FA9A9CA002CB4EC /* libtup_ldapfrontstage.a */; };
-		410CF2081FA9A9CA002CB4EC /* libtup_ldapstack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B21FA9A9CA002CB4EC /* libtup_ldapstack.a */; };
-		410CF2091FA9A9CA002CB4EC /* libtup_login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B31FA9A9CA002CB4EC /* libtup_login.a */; };
-		410CF20A1FA9A9CA002CB4EC /* libtup_logone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B41FA9A9CA002CB4EC /* libtup_logone.a */; };
-		410CF20B1FA9A9CA002CB4EC /* libtup_msg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B51FA9A9CA002CB4EC /* libtup_msg.a */; };
-		410CF20D1FA9A9CA002CB4EC /* libtup_os_adapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B71FA9A9CA002CB4EC /* libtup_os_adapter.a */; };
-		410CF20E1FA9A9CA002CB4EC /* libtup_publiclib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1B81FA9A9CA002CB4EC /* libtup_publiclib.a */; };
-		410CF2121FA9A9CA002CB4EC /* libtup_support.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1BC1FA9A9CA002CB4EC /* libtup_support.a */; };
-		410CF2131FA9A9CA002CB4EC /* libtup_svnapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1BD1FA9A9CA002CB4EC /* libtup_svnapi.a */; };
-		410CF2141FA9A9CA002CB4EC /* libtup_xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1BE1FA9A9CA002CB4EC /* libtup_xml.a */; };
-		410CF2151FA9A9CA002CB4EC /* libTupConf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1BF1FA9A9CA002CB4EC /* libTupConf.a */; };
-		410CF2181FA9A9CA002CB4EC /* libvcom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410CF1C21FA9A9CA002CB4EC /* libvcom.a */; };
 		41223CB22004BDAC00C21D2C /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41223CAE2004BDAB00C21D2C /* ContactDetailViewController.m */; };
 		41223CB32004BDAC00C21D2C /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41223CB12004BDAC00C21D2C /* ContactTableViewController.m */; };
 		41223CB72004BE2D00C21D2C /* CallHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41223CB52004BE2D00C21D2C /* CallHistoryCell.m */; };
 		41223CB82004BE2D00C21D2C /* CallHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41223CB62004BE2D00C21D2C /* CallHistoryCell.xib */; };
-		4122B22D1FFCDB610054D0E5 /* ETPModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4122B2221FFCDB610054D0E5 /* ETPModel.xcdatamodeld */; };
-		4122B22E1FFCDB610054D0E5 /* libTupContactsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B22C1FFCDB610054D0E5 /* libTupContactsSDK.a */; };
 		4122B2321FFCDE130054D0E5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B22F1FFCDE130054D0E5 /* AddressBook.framework */; };
 		4122B2331FFCDE130054D0E5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B2301FFCDE130054D0E5 /* AddressBookUI.framework */; };
 		4122B2341FFCDE130054D0E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B2311FFCDE130054D0E5 /* CFNetwork.framework */; };
@@ -165,19 +102,9 @@
 		4122B2481FFCDEE80054D0E5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B2471FFCDEE80054D0E5 /* CoreAudio.framework */; };
 		4122B24A1FFCDEF80054D0E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B2491FFCDEF80054D0E5 /* SystemConfiguration.framework */; };
 		4122B24C1FFCDF0C0054D0E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122B24B1FFCDF0C0054D0E5 /* Security.framework */; };
-		414ACFAE20070D980053C260 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ACFAD20070D980053C260 /* libcurl.a */; };
-		414D0D1F1FEA08BD001A6CFC /* libuspsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D0D1A1FEA08BB001A6CFC /* libuspsdk.a */; };
-		414D0D201FEA08BD001A6CFC /* libtup_socket_stg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D0D1B1FEA08BC001A6CFC /* libtup_socket_stg.a */; };
-		414D0D211FEA08BD001A6CFC /* libtupService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D0D1C1FEA08BC001A6CFC /* libtupService.a */; };
-		414D0D221FEA08BD001A6CFC /* libtscsvn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D0D1D1FEA08BC001A6CFC /* libtscsvn.a */; };
-		414D0D231FEA08BD001A6CFC /* libtup_socket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D0D1E1FEA08BC001A6CFC /* libtup_socket.a */; };
 		415A372F2011A409007A8619 /* CallRingMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 415A372E2011A409007A8619 /* CallRingMode.m */; };
 		415A37332011A7EC007A8619 /* In.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 415A37322011A7EC007A8619 /* In.mp3 */; };
 		41882B8120031A03006437DC /* VCAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = 41882B8020031A03006437DC /* VCAttendee.m */; };
-		418CAFD520F374DF00863CEB /* websockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418CAFD420F374DF00863CEB /* websockets.framework */; };
-		418CAFD920F749D500863CEB /* websockets.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 418CAFD420F374DF00863CEB /* websockets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		419522631FBC3FFD00CA3429 /* CallLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 419522601FBC3FFD00CA3429 /* CallLogMessage.m */; };
-		419F4A7420CE4CF2006C8FD8 /* libtup_zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 419F4A7320CE4CF2006C8FD8 /* libtup_zip.a */; };
 		8D60FC191F594CF500DE9654 /* ParseConfXMLInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D60FC181F594CF500DE9654 /* ParseConfXMLInfo.mm */; };
 		8D9FCCDD1F45357B00A8216F /* AttendeeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FCCDC1F45357B00A8216F /* AttendeeTableView.m */; };
 		8DDC27D91F3AEFDA00DE5353 /* ConfAttendee+StructParase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC27C51F3AEFDA00DE5353 /* ConfAttendee+StructParase.m */; };
@@ -202,6 +129,13 @@
 		8DF838461F44019A009BA0C1 /* ConfDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF838441F44019A009BA0C1 /* ConfDetailViewController.m */; };
 		D33717151FEB4B02009AB550 /* LoginAuthorizeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D33717141FEB4B02009AB550 /* LoginAuthorizeInfo.m */; };
 		D36DDC631FF5F22B0032B52E /* VCConfUpdateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D36DDC621FF5F22B0032B52E /* VCConfUpdateInfo.m */; };
+		DE2BFCBA212ADF26002E5B9F /* HuaweiSDKService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2BFCB8212ADF26002E5B9F /* HuaweiSDKService.framework */; };
+		DE2BFCBB212ADF26002E5B9F /* websockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2BFCB9212ADF26002E5B9F /* websockets.framework */; };
+		DE2BFCBC212ADF9D002E5B9F /* HuaweiSDKService.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE2BFCB8212ADF26002E5B9F /* HuaweiSDKService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE2BFCBD212ADF9D002E5B9F /* websockets.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE2BFCB9212ADF26002E5B9F /* websockets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE2BFCC9212ADFE0002E5B9F /* ETPModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE2BFCBE212ADFE0002E5B9F /* ETPModel.xcdatamodeld */; };
+		DEB0BB5621216C0F00D9ED78 /* CallLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0BB5421216C0E00D9ED78 /* CallLogMessage.m */; };
+		DEB0BB5C2121847100D9ED78 /* CommonUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEB0BB5B2121847000D9ED78 /* CommonUtils.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,7 +155,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				418CAFD920F749D500863CEB /* websockets.framework in CopyFiles */,
+				DE2BFCBC212ADF9D002E5B9F /* HuaweiSDKService.framework in CopyFiles */,
+				DE2BFCBD212ADF9D002E5B9F /* websockets.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +236,6 @@
 		1258C1F01F3AA01800654D80 /* LoginServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginServerInfo.m; sourceTree = "<group>"; };
 		1258C1F51F3C828000654D80 /* DeviceMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMotionManager.h; sourceTree = "<group>"; };
 		1258C1F61F3C828000654D80 /* DeviceMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMotionManager.m; sourceTree = "<group>"; };
-		12627AF41F413DED00B5E4F3 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
-		12627AF51F413DED00B5E4F3 /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
 		12627AF81F42D6AF00B5E4F3 /* VidePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VidePreviewController.h; sourceTree = "<group>"; };
 		12627AF91F42D6AF00B5E4F3 /* VidePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VidePreviewController.m; sourceTree = "<group>"; };
 		12627AFB1F42EE8900B5E4F3 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
@@ -366,8 +299,6 @@
 		12C23FC81F31C06D00C21D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C23FCA1F31C06D00C21D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12C23FCF1F31C06D00C21D91 /* VC_SDK_DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VC_SDK_DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C241FF1F31CAF100C21D91 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
-		12C242001F31CAF100C21D91 /* CommonUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommonUtils.mm; sourceTree = "<group>"; };
 		12C242051F31CEB600C21D91 /* NetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtils.h; sourceTree = "<group>"; };
 		12C242061F31CEB600C21D91 /* NetworkUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NetworkUtils.mm; sourceTree = "<group>"; };
 		12C242071F31CEB600C21D91 /* VCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCReachability.h; sourceTree = "<group>"; };
@@ -378,81 +309,6 @@
 		12E8EE3D1F56740D00C3F953 /* ConfChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfChatViewController.m; sourceTree = "<group>"; };
 		12E8EE3E1F56740D00C3F953 /* ConfChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfChatViewController.xib; sourceTree = "<group>"; };
 		12F4BC161F6F819A001426E4 /* VC_SDK_DEMO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VC_SDK_DEMO.entitlements; sourceTree = "<group>"; };
-		410CF14F1FA9A9BA002CB4EC /* call_advanced_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_advanced_def.h; sourceTree = "<group>"; };
-		410CF1501FA9A9BA002CB4EC /* call_advanced_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_advanced_interface.h; sourceTree = "<group>"; };
-		410CF1511FA9A9BA002CB4EC /* call_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_def.h; sourceTree = "<group>"; };
-		410CF1521FA9A9BA002CB4EC /* call_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_interface.h; sourceTree = "<group>"; };
-		410CF1541FA9A9BA002CB4EC /* login_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_def.h; sourceTree = "<group>"; };
-		410CF1551FA9A9BA002CB4EC /* login_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_interface.h; sourceTree = "<group>"; };
-		410CF1581FA9A9BA002CB4EC /* tup_conf_baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_baseapi.h; sourceTree = "<group>"; };
-		410CF1591FA9A9BA002CB4EC /* tup_conf_basedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_basedef.h; sourceTree = "<group>"; };
-		410CF15A1FA9A9BA002CB4EC /* tup_conf_extendapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_extendapi.h; sourceTree = "<group>"; };
-		410CF15B1FA9A9BA002CB4EC /* tup_conf_extenddef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_extenddef.h; sourceTree = "<group>"; };
-		410CF15C1FA9A9BA002CB4EC /* tup_conf_otherapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_otherapi.h; sourceTree = "<group>"; };
-		410CF15D1FA9A9BA002CB4EC /* tup_conf_otherdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_otherdef.h; sourceTree = "<group>"; };
-		410CF15E1FA9A9BA002CB4EC /* tup_confctrl_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_def.h; sourceTree = "<group>"; };
-		410CF15F1FA9A9BA002CB4EC /* tup_confctrl_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_interface.h; sourceTree = "<group>"; };
-		410CF1621FA9A9BA002CB4EC /* tup_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_def.h; sourceTree = "<group>"; };
-		410CF16D1FA9A9BA002CB4EC /* tup_service_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_service_interface.h; sourceTree = "<group>"; };
-		410CF16F1FA9A9CA002CB4EC /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		410CF1711FA9A9CA002CB4EC /* libhme-audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libhme-audio.a"; sourceTree = "<group>"; };
-		410CF1721FA9A9CA002CB4EC /* libHME-Video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHME-Video.a"; sourceTree = "<group>"; };
-		410CF1731FA9A9CA002CB4EC /* libHW_MPT_AUDIO_AAC_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_AUDIO_AAC_LIB.a; sourceTree = "<group>"; };
-		410CF1741FA9A9CA002CB4EC /* libHW_MPT_IOS_AMR_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_AMR_LIB.a; sourceTree = "<group>"; };
-		410CF1751FA9A9CA002CB4EC /* libHW_MPT_IOS_AMRWB_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_AMRWB_LIB.a; sourceTree = "<group>"; };
-		410CF1761FA9A9CA002CB4EC /* libHW_MPT_IOS_G722_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_G722_LIB.a; sourceTree = "<group>"; };
-		410CF1771FA9A9CA002CB4EC /* libHW_MPT_IOS_G729AB_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_G729AB_LIB.a; sourceTree = "<group>"; };
-		410CF1781FA9A9CA002CB4EC /* libHW_MPT_IOS_ILBC_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_ILBC_LIB.a; sourceTree = "<group>"; };
-		410CF1791FA9A9CA002CB4EC /* libHW_MPT_IOS_OPUS_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_OPUS_LIB.a; sourceTree = "<group>"; };
-		410CF17A1FA9A9CA002CB4EC /* libipsi_crypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_crypto.a; sourceTree = "<group>"; };
-		410CF17B1FA9A9CA002CB4EC /* libipsi_eap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_eap.a; sourceTree = "<group>"; };
-		410CF17C1FA9A9CA002CB4EC /* libipsi_http.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_http.a; sourceTree = "<group>"; };
-		410CF17D1FA9A9CA002CB4EC /* libipsi_osal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_osal.a; sourceTree = "<group>"; };
-		410CF17E1FA9A9CA002CB4EC /* libipsi_pse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_pse.a; sourceTree = "<group>"; };
-		410CF17F1FA9A9CA002CB4EC /* libipsi_ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_ssl.a; sourceTree = "<group>"; };
-		410CF1801FA9A9CA002CB4EC /* libjsoncpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjsoncpp.a; sourceTree = "<group>"; };
-		410CF1811FA9A9CA002CB4EC /* libKMC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKMC.a; sourceTree = "<group>"; };
-		410CF1821FA9A9CA002CB4EC /* libminidopra.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminidopra.a; sourceTree = "<group>"; };
-		410CF1831FA9A9CA002CB4EC /* libplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplib.a; sourceTree = "<group>"; };
-		410CF1841FA9A9CA002CB4EC /* libsasl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsasl.a; sourceTree = "<group>"; };
-		410CF1851FA9A9CA002CB4EC /* libsdp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsdp.a; sourceTree = "<group>"; };
-		410CF1861FA9A9CA002CB4EC /* libsecurec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsecurec.a; sourceTree = "<group>"; };
-		410CF1871FA9A9CA002CB4EC /* libsipstacktup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsipstacktup.a; sourceTree = "<group>"; };
-		410CF1881FA9A9CA002CB4EC /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		410CF18A1FA9A9CA002CB4EC /* libtup_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_base.a; sourceTree = "<group>"; };
-		410CF18B1FA9A9CA002CB4EC /* libtup_call_audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_audio.a; sourceTree = "<group>"; };
-		410CF18C1FA9A9CA002CB4EC /* libtup_call_bfcp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_bfcp.a; sourceTree = "<group>"; };
-		410CF18D1FA9A9CA002CB4EC /* libtup_call_mediacommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_mediacommon.a; sourceTree = "<group>"; };
-		410CF18E1FA9A9CA002CB4EC /* libtup_call_mediaservice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_mediaservice.a; sourceTree = "<group>"; };
-		410CF18F1FA9A9CA002CB4EC /* libtup_call_service.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_service.a; sourceTree = "<group>"; };
-		410CF1901FA9A9CA002CB4EC /* libtup_call_sip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_sip.a; sourceTree = "<group>"; };
-		410CF1911FA9A9CA002CB4EC /* libtup_call_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_video.a; sourceTree = "<group>"; };
-		410CF1931FA9A9CA002CB4EC /* libtup_cmpt_service.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_cmpt_service.a; sourceTree = "<group>"; };
-		410CF1941FA9A9CA002CB4EC /* libtup_commonlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_commonlib.a; sourceTree = "<group>"; };
-		410CF1951FA9A9CA002CB4EC /* libtup_confctrl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_confctrl.a; sourceTree = "<group>"; };
-		410CF1961FA9A9CA002CB4EC /* libtup_confmng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_confmng.a; sourceTree = "<group>"; };
-		410CF1971FA9A9CA002CB4EC /* libtup_corpdirectory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_corpdirectory.a; sourceTree = "<group>"; };
-		410CF19A1FA9A9CA002CB4EC /* libtup_dns.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_dns.a; sourceTree = "<group>"; };
-		410CF19D1FA9A9CA002CB4EC /* libtup_exception.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_exception.a; sourceTree = "<group>"; };
-		410CF19E1FA9A9CA002CB4EC /* libtup_ftp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ftp.a; sourceTree = "<group>"; };
-		410CF1A01FA9A9CA002CB4EC /* libtup_https_clt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_https_clt.a; sourceTree = "<group>"; };
-		410CF1A11FA9A9CA002CB4EC /* libtup_https_srv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_https_srv.a; sourceTree = "<group>"; };
-		410CF1A21FA9A9CA002CB4EC /* libtup_httptrans.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_httptrans.a; sourceTree = "<group>"; };
-		410CF1AE1FA9A9CA002CB4EC /* libtup_ipdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ipdetect.a; sourceTree = "<group>"; };
-		410CF1AF1FA9A9CA002CB4EC /* libtup_ldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldap.a; sourceTree = "<group>"; };
-		410CF1B01FA9A9CA002CB4EC /* libtup_ldapdisasterrecovery.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapdisasterrecovery.a; sourceTree = "<group>"; };
-		410CF1B11FA9A9CA002CB4EC /* libtup_ldapfrontstage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapfrontstage.a; sourceTree = "<group>"; };
-		410CF1B21FA9A9CA002CB4EC /* libtup_ldapstack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapstack.a; sourceTree = "<group>"; };
-		410CF1B31FA9A9CA002CB4EC /* libtup_login.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_login.a; sourceTree = "<group>"; };
-		410CF1B41FA9A9CA002CB4EC /* libtup_logone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_logone.a; sourceTree = "<group>"; };
-		410CF1B51FA9A9CA002CB4EC /* libtup_msg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_msg.a; sourceTree = "<group>"; };
-		410CF1B71FA9A9CA002CB4EC /* libtup_os_adapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_os_adapter.a; sourceTree = "<group>"; };
-		410CF1B81FA9A9CA002CB4EC /* libtup_publiclib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_publiclib.a; sourceTree = "<group>"; };
-		410CF1BC1FA9A9CA002CB4EC /* libtup_support.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_support.a; sourceTree = "<group>"; };
-		410CF1BD1FA9A9CA002CB4EC /* libtup_svnapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_svnapi.a; sourceTree = "<group>"; };
-		410CF1BE1FA9A9CA002CB4EC /* libtup_xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_xml.a; sourceTree = "<group>"; };
-		410CF1BF1FA9A9CA002CB4EC /* libTupConf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTupConf.a; sourceTree = "<group>"; };
-		410CF1C21FA9A9CA002CB4EC /* libvcom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvcom.a; sourceTree = "<group>"; };
 		41223CAE2004BDAB00C21D2C /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		41223CAF2004BDAB00C21D2C /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		41223CB02004BDAB00C21D2C /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
@@ -460,20 +316,6 @@
 		41223CB42004BE2D00C21D2C /* CallHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallHistoryCell.h; sourceTree = "<group>"; };
 		41223CB52004BE2D00C21D2C /* CallHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallHistoryCell.m; sourceTree = "<group>"; };
 		41223CB62004BE2D00C21D2C /* CallHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallHistoryCell.xib; sourceTree = "<group>"; };
-		4122B21E1FFCDB590054D0E5 /* TupContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TupContact.h; sourceTree = "<group>"; };
-		4122B21F1FFCDB590054D0E5 /* TupContactsDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TupContactsDef.h; sourceTree = "<group>"; };
-		4122B2201FFCDB590054D0E5 /* TupContactsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TupContactsSDK.h; sourceTree = "<group>"; };
-		4122B2211FFCDB590054D0E5 /* TupHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TupHistory.h; sourceTree = "<group>"; };
-		4122B2231FFCDB610054D0E5 /* ETPModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 2.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2241FFCDB610054D0E5 /* ETPModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 3.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2251FFCDB610054D0E5 /* ETPModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 4.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2261FFCDB610054D0E5 /* ETPModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 5.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2271FFCDB610054D0E5 /* ETPModel 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 6.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2281FFCDB610054D0E5 /* ETPModel 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 7.xcdatamodel"; sourceTree = "<group>"; };
-		4122B2291FFCDB610054D0E5 /* ETPModel 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 8.xcdatamodel"; sourceTree = "<group>"; };
-		4122B22A1FFCDB610054D0E5 /* ETPModel 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 9.xcdatamodel"; sourceTree = "<group>"; };
-		4122B22B1FFCDB610054D0E5 /* ETPModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ETPModel.xcdatamodel; sourceTree = "<group>"; };
-		4122B22C1FFCDB610054D0E5 /* libTupContactsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTupContactsSDK.a; sourceTree = "<group>"; };
 		4122B22F1FFCDE130054D0E5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		4122B2301FFCDE130054D0E5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		4122B2311FFCDE130054D0E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -489,21 +331,11 @@
 		4122B2471FFCDEE80054D0E5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		4122B2491FFCDEF80054D0E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4122B24B1FFCDF0C0054D0E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		414ACFAD20070D980053C260 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
-		414D0D1A1FEA08BB001A6CFC /* libuspsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuspsdk.a; sourceTree = "<group>"; };
-		414D0D1B1FEA08BC001A6CFC /* libtup_socket_stg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_socket_stg.a; sourceTree = "<group>"; };
-		414D0D1C1FEA08BC001A6CFC /* libtupService.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtupService.a; sourceTree = "<group>"; };
-		414D0D1D1FEA08BC001A6CFC /* libtscsvn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtscsvn.a; sourceTree = "<group>"; };
-		414D0D1E1FEA08BC001A6CFC /* libtup_socket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_socket.a; sourceTree = "<group>"; };
 		415A372D2011A409007A8619 /* CallRingMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallRingMode.h; sourceTree = "<group>"; };
 		415A372E2011A409007A8619 /* CallRingMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallRingMode.m; sourceTree = "<group>"; };
 		415A37322011A7EC007A8619 /* In.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = In.mp3; sourceTree = "<group>"; };
 		41882B7F20031A03006437DC /* VCAttendee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAttendee.h; sourceTree = "<group>"; };
 		41882B8020031A03006437DC /* VCAttendee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAttendee.m; sourceTree = "<group>"; };
-		418CAFD420F374DF00863CEB /* websockets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = websockets.framework; sourceTree = "<group>"; };
-		4195225F1FBC3FFD00CA3429 /* CallLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallLogMessage.h; sourceTree = "<group>"; };
-		419522601FBC3FFD00CA3429 /* CallLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallLogMessage.m; sourceTree = "<group>"; };
-		419F4A7320CE4CF2006C8FD8 /* libtup_zip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_zip.a; sourceTree = "<group>"; };
 		8D60FC171F594CF500DE9654 /* ParseConfXMLInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseConfXMLInfo.h; sourceTree = "<group>"; };
 		8D60FC181F594CF500DE9654 /* ParseConfXMLInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParseConfXMLInfo.mm; sourceTree = "<group>"; };
 		8D9FCCDB1F45357B00A8216F /* AttendeeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendeeTableView.h; sourceTree = "<group>"; };
@@ -552,6 +384,22 @@
 		D33717141FEB4B02009AB550 /* LoginAuthorizeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAuthorizeInfo.m; sourceTree = "<group>"; };
 		D36DDC611FF5F22B0032B52E /* VCConfUpdateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCConfUpdateInfo.h; sourceTree = "<group>"; };
 		D36DDC621FF5F22B0032B52E /* VCConfUpdateInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCConfUpdateInfo.m; sourceTree = "<group>"; };
+		DE2BFCB8212ADF26002E5B9F /* HuaweiSDKService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HuaweiSDKService.framework; sourceTree = "<group>"; };
+		DE2BFCB9212ADF26002E5B9F /* websockets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = websockets.framework; sourceTree = "<group>"; };
+		DE2BFCBF212ADFE0002E5B9F /* ETPModel 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 10.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC0212ADFE0002E5B9F /* ETPModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC1212ADFE0002E5B9F /* ETPModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 3.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC2212ADFE0002E5B9F /* ETPModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 4.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC3212ADFE0002E5B9F /* ETPModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 5.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC4212ADFE0002E5B9F /* ETPModel 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 6.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC5212ADFE0002E5B9F /* ETPModel 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 7.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC6212ADFE0002E5B9F /* ETPModel 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 8.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC7212ADFE0002E5B9F /* ETPModel 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ETPModel 9.xcdatamodel"; sourceTree = "<group>"; };
+		DE2BFCC8212ADFE0002E5B9F /* ETPModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ETPModel.xcdatamodel; sourceTree = "<group>"; };
+		DEB0BB5421216C0E00D9ED78 /* CallLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallLogMessage.m; sourceTree = "<group>"; };
+		DEB0BB5521216C0E00D9ED78 /* CallLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallLogMessage.h; sourceTree = "<group>"; };
+		DEB0BB5A2121847000D9ED78 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		DEB0BB5B2121847000D9ED78 /* CommonUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommonUtils.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2BFCBB212ADF26002E5B9F /* websockets.framework in Frameworks */,
 				4122B24C1FFCDF0C0054D0E5 /* Security.framework in Frameworks */,
 				4122B24A1FFCDEF80054D0E5 /* SystemConfiguration.framework in Frameworks */,
 				4122B2481FFCDEE80054D0E5 /* CoreAudio.framework in Frameworks */,
@@ -568,89 +417,22 @@
 				4122B2401FFCDE870054D0E5 /* QuartzCore.framework in Frameworks */,
 				4122B23E1FFCDE720054D0E5 /* UIKit.framework in Frameworks */,
 				4122B23C1FFCDE5D0054D0E5 /* CoreGraphics.framework in Frameworks */,
+				DE2BFCBA212ADF26002E5B9F /* HuaweiSDKService.framework in Frameworks */,
 				4122B23A1FFCDE480054D0E5 /* CoreData.framework in Frameworks */,
 				4122B2381FFCDE3B0054D0E5 /* MessageUI.framework in Frameworks */,
 				4122B2361FFCDE2A0054D0E5 /* MobileCoreServices.framework in Frameworks */,
 				4122B2321FFCDE130054D0E5 /* AddressBook.framework in Frameworks */,
 				4122B2331FFCDE130054D0E5 /* AddressBookUI.framework in Frameworks */,
 				4122B2341FFCDE130054D0E5 /* CFNetwork.framework in Frameworks */,
-				410CF1F61FA9A9CA002CB4EC /* libtup_https_clt.a in Frameworks */,
-				410CF1E01FA9A9CA002CB4EC /* libtup_base.a in Frameworks */,
-				410CF1DA1FA9A9CA002CB4EC /* libsasl.a in Frameworks */,
-				414D0D211FEA08BD001A6CFC /* libtupService.a in Frameworks */,
-				410CF1D91FA9A9CA002CB4EC /* libplib.a in Frameworks */,
-				410CF1D81FA9A9CA002CB4EC /* libminidopra.a in Frameworks */,
-				410CF2151FA9A9CA002CB4EC /* libTupConf.a in Frameworks */,
-				414ACFAE20070D980053C260 /* libcurl.a in Frameworks */,
 				1258C1EA1F39E27D00654D80 /* libiconv.2.dylib in Frameworks */,
-				410CF2141FA9A9CA002CB4EC /* libtup_xml.a in Frameworks */,
-				410CF1EB1FA9A9CA002CB4EC /* libtup_confctrl.a in Frameworks */,
 				1258C1D81F39593100654D80 /* libresolv.9.dylib in Frameworks */,
-				410CF1E71FA9A9CA002CB4EC /* libtup_call_video.a in Frameworks */,
-				414D0D1F1FEA08BD001A6CFC /* libuspsdk.a in Frameworks */,
-				410CF1C81FA9A9CA002CB4EC /* libHME-Video.a in Frameworks */,
-				410CF2081FA9A9CA002CB4EC /* libtup_ldapstack.a in Frameworks */,
 				1258C1D91F39593100654D80 /* libstdc++.6.0.9.dylib in Frameworks */,
-				410CF1DB1FA9A9CA002CB4EC /* libsdp.a in Frameworks */,
 				1258C1DA1F39593100654D80 /* libz.1.dylib in Frameworks */,
-				410CF1D51FA9A9CA002CB4EC /* libipsi_ssl.a in Frameworks */,
-				410CF1F01FA9A9CA002CB4EC /* libtup_dns.a in Frameworks */,
-				418CAFD520F374DF00863CEB /* websockets.framework in Frameworks */,
-				410CF2071FA9A9CA002CB4EC /* libtup_ldapfrontstage.a in Frameworks */,
-				410CF2051FA9A9CA002CB4EC /* libtup_ldap.a in Frameworks */,
-				414D0D201FEA08BD001A6CFC /* libtup_socket_stg.a in Frameworks */,
-				410CF1F41FA9A9CA002CB4EC /* libtup_ftp.a in Frameworks */,
 				1258C1D41F39590400654D80 /* CoreMedia.framework in Frameworks */,
-				419F4A7420CE4CF2006C8FD8 /* libtup_zip.a in Frameworks */,
-				410CF1DC1FA9A9CA002CB4EC /* libsecurec.a in Frameworks */,
-				4122B22E1FFCDB610054D0E5 /* libTupContactsSDK.a in Frameworks */,
-				410CF1E41FA9A9CA002CB4EC /* libtup_call_mediaservice.a in Frameworks */,
-				410CF1C71FA9A9CA002CB4EC /* libhme-audio.a in Frameworks */,
-				414D0D231FEA08BD001A6CFC /* libtup_socket.a in Frameworks */,
-				410CF2131FA9A9CA002CB4EC /* libtup_svnapi.a in Frameworks */,
-				410CF1CD1FA9A9CA002CB4EC /* libHW_MPT_IOS_G729AB_LIB.a in Frameworks */,
-				410CF1DD1FA9A9CA002CB4EC /* libsipstacktup.a in Frameworks */,
-				410CF1CC1FA9A9CA002CB4EC /* libHW_MPT_IOS_G722_LIB.a in Frameworks */,
-				410CF1C91FA9A9CA002CB4EC /* libHW_MPT_AUDIO_AAC_LIB.a in Frameworks */,
-				410CF1E31FA9A9CA002CB4EC /* libtup_call_mediacommon.a in Frameworks */,
-				410CF1ED1FA9A9CA002CB4EC /* libtup_corpdirectory.a in Frameworks */,
-				410CF1DE1FA9A9CA002CB4EC /* libssl.a in Frameworks */,
-				410CF20B1FA9A9CA002CB4EC /* libtup_msg.a in Frameworks */,
-				410CF2061FA9A9CA002CB4EC /* libtup_ldapdisasterrecovery.a in Frameworks */,
-				410CF20D1FA9A9CA002CB4EC /* libtup_os_adapter.a in Frameworks */,
-				410CF1D01FA9A9CA002CB4EC /* libipsi_crypto.a in Frameworks */,
-				410CF1E51FA9A9CA002CB4EC /* libtup_call_service.a in Frameworks */,
-				410CF1F71FA9A9CA002CB4EC /* libtup_https_srv.a in Frameworks */,
-				410CF1CB1FA9A9CA002CB4EC /* libHW_MPT_IOS_AMRWB_LIB.a in Frameworks */,
-				410CF1EC1FA9A9CA002CB4EC /* libtup_confmng.a in Frameworks */,
-				410CF1D11FA9A9CA002CB4EC /* libipsi_eap.a in Frameworks */,
-				410CF1E91FA9A9CA002CB4EC /* libtup_cmpt_service.a in Frameworks */,
-				410CF1D71FA9A9CA002CB4EC /* libKMC.a in Frameworks */,
-				410CF1E21FA9A9CA002CB4EC /* libtup_call_bfcp.a in Frameworks */,
-				414D0D221FEA08BD001A6CFC /* libtscsvn.a in Frameworks */,
-				410CF2091FA9A9CA002CB4EC /* libtup_login.a in Frameworks */,
-				410CF2121FA9A9CA002CB4EC /* libtup_support.a in Frameworks */,
-				410CF1E11FA9A9CA002CB4EC /* libtup_call_audio.a in Frameworks */,
-				410CF1D21FA9A9CA002CB4EC /* libipsi_http.a in Frameworks */,
 				1258C1D21F3958FF00654D80 /* MediaPlayer.framework in Frameworks */,
-				410CF20E1FA9A9CA002CB4EC /* libtup_publiclib.a in Frameworks */,
-				410CF1F31FA9A9CA002CB4EC /* libtup_exception.a in Frameworks */,
 				1258C1D01F3958F900654D80 /* AVFoundation.framework in Frameworks */,
-				410CF1EA1FA9A9CA002CB4EC /* libtup_commonlib.a in Frameworks */,
-				410CF1CA1FA9A9CA002CB4EC /* libHW_MPT_IOS_AMR_LIB.a in Frameworks */,
-				410CF1D41FA9A9CA002CB4EC /* libipsi_pse.a in Frameworks */,
-				410CF2181FA9A9CA002CB4EC /* libvcom.a in Frameworks */,
-				410CF20A1FA9A9CA002CB4EC /* libtup_logone.a in Frameworks */,
-				410CF1D61FA9A9CA002CB4EC /* libjsoncpp.a in Frameworks */,
-				410CF2041FA9A9CA002CB4EC /* libtup_ipdetect.a in Frameworks */,
-				410CF1CE1FA9A9CA002CB4EC /* libHW_MPT_IOS_ILBC_LIB.a in Frameworks */,
-				410CF1E61FA9A9CA002CB4EC /* libtup_call_sip.a in Frameworks */,
 				1258C1CE1F3958F500654D80 /* VideoToolbox.framework in Frameworks */,
-				410CF1F81FA9A9CA002CB4EC /* libtup_httptrans.a in Frameworks */,
-				410CF1C51FA9A9CA002CB4EC /* libcrypto.a in Frameworks */,
-				410CF1D31FA9A9CA002CB4EC /* libipsi_osal.a in Frameworks */,
 				1258C1CC1F3958EF00654D80 /* AudioToolbox.framework in Frameworks */,
-				410CF1CF1FA9A9CA002CB4EC /* libHW_MPT_IOS_OPUS_LIB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,8 +603,6 @@
 				126C63741F38675800048A9F /* DialSecondPlate.xib */,
 				126C63751F38675800048A9F /* EAGLView.h */,
 				126C63761F38675800048A9F /* EAGLView.mm */,
-				4195225F1FBC3FFD00CA3429 /* CallLogMessage.h */,
-				419522601FBC3FFD00CA3429 /* CallLogMessage.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -877,6 +657,8 @@
 				126C639B1F38698E00048A9F /* Model */,
 				126C63A51F38698E00048A9F /* Defines.h */,
 				126C63A61F38698E00048A9F /* Defines.mm */,
+				DEB0BB5A2121847000D9ED78 /* CommonUtils.h */,
+				DEB0BB5B2121847000D9ED78 /* CommonUtils.mm */,
 				126C63A71F38698E00048A9F /* ManagerService.h */,
 				126C63A81F38698E00048A9F /* ManagerService.m */,
 			);
@@ -932,6 +714,8 @@
 				126C63C01F386A0700048A9F /* CallSessionModifyInfo.m */,
 				415A372D2011A409007A8619 /* CallRingMode.h */,
 				415A372E2011A409007A8619 /* CallRingMode.m */,
+				DEB0BB5521216C0E00D9ED78 /* CallLogMessage.h */,
+				DEB0BB5421216C0E00D9ED78 /* CallLogMessage.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -975,7 +759,7 @@
 		12C23FB81F31C06D00C21D91 /* VC_SDK_DEMO */ = {
 			isa = PBXGroup;
 			children = (
-				410CEF911FA9A024002CB4EC /* Depand */,
+				DE2BFCB7212ADF26002E5B9F /* Depand */,
 				12F4BC161F6F819A001426E4 /* VC_SDK_DEMO.entitlements */,
 				124B28AA1F6166F400DBDD77 /* logger */,
 				126C63901F3867A400048A9F /* Service */,
@@ -1038,128 +822,12 @@
 			children = (
 				1258C1F51F3C828000654D80 /* DeviceMotionManager.h */,
 				1258C1F61F3C828000654D80 /* DeviceMotionManager.m */,
-				12C241FF1F31CAF100C21D91 /* CommonUtils.h */,
-				12C242001F31CAF100C21D91 /* CommonUtils.mm */,
 				12C242051F31CEB600C21D91 /* NetworkUtils.h */,
 				12C242061F31CEB600C21D91 /* NetworkUtils.mm */,
 				12C242071F31CEB600C21D91 /* VCReachability.h */,
 				12C242081F31CEB600C21D91 /* VCReachability.m */,
-				12627AF41F413DED00B5E4F3 /* UIViewController+CurrentViewController.h */,
-				12627AF51F413DED00B5E4F3 /* UIViewController+CurrentViewController.m */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		410CEF911FA9A024002CB4EC /* Depand */ = {
-			isa = PBXGroup;
-			children = (
-				410CEF941FA9A024002CB4EC /* include */,
-				410CEF961FA9A024002CB4EC /* lib */,
-			);
-			path = Depand;
-			sourceTree = "<group>";
-		};
-		410CEF941FA9A024002CB4EC /* include */ = {
-			isa = PBXGroup;
-			children = (
-				4122B21E1FFCDB590054D0E5 /* TupContact.h */,
-				4122B21F1FFCDB590054D0E5 /* TupContactsDef.h */,
-				4122B2201FFCDB590054D0E5 /* TupContactsSDK.h */,
-				4122B2211FFCDB590054D0E5 /* TupHistory.h */,
-				410CF14F1FA9A9BA002CB4EC /* call_advanced_def.h */,
-				410CF1501FA9A9BA002CB4EC /* call_advanced_interface.h */,
-				410CF1511FA9A9BA002CB4EC /* call_def.h */,
-				410CF1521FA9A9BA002CB4EC /* call_interface.h */,
-				410CF1541FA9A9BA002CB4EC /* login_def.h */,
-				410CF1551FA9A9BA002CB4EC /* login_interface.h */,
-				410CF1581FA9A9BA002CB4EC /* tup_conf_baseapi.h */,
-				410CF1591FA9A9BA002CB4EC /* tup_conf_basedef.h */,
-				410CF15A1FA9A9BA002CB4EC /* tup_conf_extendapi.h */,
-				410CF15B1FA9A9BA002CB4EC /* tup_conf_extenddef.h */,
-				410CF15C1FA9A9BA002CB4EC /* tup_conf_otherapi.h */,
-				410CF15D1FA9A9BA002CB4EC /* tup_conf_otherdef.h */,
-				410CF15E1FA9A9BA002CB4EC /* tup_confctrl_def.h */,
-				410CF15F1FA9A9BA002CB4EC /* tup_confctrl_interface.h */,
-				410CF1621FA9A9BA002CB4EC /* tup_def.h */,
-				410CF16D1FA9A9BA002CB4EC /* tup_service_interface.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		410CEF961FA9A024002CB4EC /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				418CAFD420F374DF00863CEB /* websockets.framework */,
-				419F4A7320CE4CF2006C8FD8 /* libtup_zip.a */,
-				414ACFAD20070D980053C260 /* libcurl.a */,
-				4122B2221FFCDB610054D0E5 /* ETPModel.xcdatamodeld */,
-				4122B22C1FFCDB610054D0E5 /* libTupContactsSDK.a */,
-				414D0D1D1FEA08BC001A6CFC /* libtscsvn.a */,
-				414D0D1B1FEA08BC001A6CFC /* libtup_socket_stg.a */,
-				414D0D1E1FEA08BC001A6CFC /* libtup_socket.a */,
-				414D0D1C1FEA08BC001A6CFC /* libtupService.a */,
-				414D0D1A1FEA08BB001A6CFC /* libuspsdk.a */,
-				410CF16F1FA9A9CA002CB4EC /* libcrypto.a */,
-				410CF1711FA9A9CA002CB4EC /* libhme-audio.a */,
-				410CF1721FA9A9CA002CB4EC /* libHME-Video.a */,
-				410CF1731FA9A9CA002CB4EC /* libHW_MPT_AUDIO_AAC_LIB.a */,
-				410CF1741FA9A9CA002CB4EC /* libHW_MPT_IOS_AMR_LIB.a */,
-				410CF1751FA9A9CA002CB4EC /* libHW_MPT_IOS_AMRWB_LIB.a */,
-				410CF1761FA9A9CA002CB4EC /* libHW_MPT_IOS_G722_LIB.a */,
-				410CF1771FA9A9CA002CB4EC /* libHW_MPT_IOS_G729AB_LIB.a */,
-				410CF1781FA9A9CA002CB4EC /* libHW_MPT_IOS_ILBC_LIB.a */,
-				410CF1791FA9A9CA002CB4EC /* libHW_MPT_IOS_OPUS_LIB.a */,
-				410CF17A1FA9A9CA002CB4EC /* libipsi_crypto.a */,
-				410CF17B1FA9A9CA002CB4EC /* libipsi_eap.a */,
-				410CF17C1FA9A9CA002CB4EC /* libipsi_http.a */,
-				410CF17D1FA9A9CA002CB4EC /* libipsi_osal.a */,
-				410CF17E1FA9A9CA002CB4EC /* libipsi_pse.a */,
-				410CF17F1FA9A9CA002CB4EC /* libipsi_ssl.a */,
-				410CF1801FA9A9CA002CB4EC /* libjsoncpp.a */,
-				410CF1811FA9A9CA002CB4EC /* libKMC.a */,
-				410CF1821FA9A9CA002CB4EC /* libminidopra.a */,
-				410CF1831FA9A9CA002CB4EC /* libplib.a */,
-				410CF1841FA9A9CA002CB4EC /* libsasl.a */,
-				410CF1851FA9A9CA002CB4EC /* libsdp.a */,
-				410CF1861FA9A9CA002CB4EC /* libsecurec.a */,
-				410CF1871FA9A9CA002CB4EC /* libsipstacktup.a */,
-				410CF1881FA9A9CA002CB4EC /* libssl.a */,
-				410CF18A1FA9A9CA002CB4EC /* libtup_base.a */,
-				410CF18B1FA9A9CA002CB4EC /* libtup_call_audio.a */,
-				410CF18C1FA9A9CA002CB4EC /* libtup_call_bfcp.a */,
-				410CF18D1FA9A9CA002CB4EC /* libtup_call_mediacommon.a */,
-				410CF18E1FA9A9CA002CB4EC /* libtup_call_mediaservice.a */,
-				410CF18F1FA9A9CA002CB4EC /* libtup_call_service.a */,
-				410CF1901FA9A9CA002CB4EC /* libtup_call_sip.a */,
-				410CF1911FA9A9CA002CB4EC /* libtup_call_video.a */,
-				410CF1931FA9A9CA002CB4EC /* libtup_cmpt_service.a */,
-				410CF1941FA9A9CA002CB4EC /* libtup_commonlib.a */,
-				410CF1951FA9A9CA002CB4EC /* libtup_confctrl.a */,
-				410CF1961FA9A9CA002CB4EC /* libtup_confmng.a */,
-				410CF1971FA9A9CA002CB4EC /* libtup_corpdirectory.a */,
-				410CF19A1FA9A9CA002CB4EC /* libtup_dns.a */,
-				410CF19D1FA9A9CA002CB4EC /* libtup_exception.a */,
-				410CF19E1FA9A9CA002CB4EC /* libtup_ftp.a */,
-				410CF1A01FA9A9CA002CB4EC /* libtup_https_clt.a */,
-				410CF1A11FA9A9CA002CB4EC /* libtup_https_srv.a */,
-				410CF1A21FA9A9CA002CB4EC /* libtup_httptrans.a */,
-				410CF1AE1FA9A9CA002CB4EC /* libtup_ipdetect.a */,
-				410CF1AF1FA9A9CA002CB4EC /* libtup_ldap.a */,
-				410CF1B01FA9A9CA002CB4EC /* libtup_ldapdisasterrecovery.a */,
-				410CF1B11FA9A9CA002CB4EC /* libtup_ldapfrontstage.a */,
-				410CF1B21FA9A9CA002CB4EC /* libtup_ldapstack.a */,
-				410CF1B31FA9A9CA002CB4EC /* libtup_login.a */,
-				410CF1B41FA9A9CA002CB4EC /* libtup_logone.a */,
-				410CF1B51FA9A9CA002CB4EC /* libtup_msg.a */,
-				410CF1B71FA9A9CA002CB4EC /* libtup_os_adapter.a */,
-				410CF1B81FA9A9CA002CB4EC /* libtup_publiclib.a */,
-				410CF1BC1FA9A9CA002CB4EC /* libtup_support.a */,
-				410CF1BD1FA9A9CA002CB4EC /* libtup_svnapi.a */,
-				410CF1BE1FA9A9CA002CB4EC /* libtup_xml.a */,
-				410CF1BF1FA9A9CA002CB4EC /* libTupConf.a */,
-				410CF1C21FA9A9CA002CB4EC /* libvcom.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		41223C8B2004AF5500C21D2C /* Contact */ = {
@@ -1256,6 +924,16 @@
 				8D9FCCDC1F45357B00A8216F /* AttendeeTableView.m */,
 			);
 			path = Conference;
+			sourceTree = "<group>";
+		};
+		DE2BFCB7212ADF26002E5B9F /* Depand */ = {
+			isa = PBXGroup;
+			children = (
+				DE2BFCBE212ADFE0002E5B9F /* ETPModel.xcdatamodeld */,
+				DE2BFCB8212ADF26002E5B9F /* HuaweiSDKService.framework */,
+				DE2BFCB9212ADF26002E5B9F /* websockets.framework */,
+			);
+			path = Depand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1400,7 +1078,6 @@
 				12627B061F43EF7400B5E4F3 /* CallTakingViewController.m in Sources */,
 				124214E91F442B2F00BDC932 /* DataConfBaseViewController.m in Sources */,
 				1258C1DD1F395B4B00654D80 /* Initializer.m in Sources */,
-				12C242011F31CAF100C21D91 /* CommonUtils.mm in Sources */,
 				8DF838171F43EA86009BA0C1 /* ConfRunningViewController.m in Sources */,
 				124B28F71F616A8100DBDD77 /* ECSCLIColor.m in Sources */,
 				8DDC27E01F3AEFDA00DE5353 /* ECCurrentConfInfo.m in Sources */,
@@ -1413,13 +1090,13 @@
 				1258C1EE1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m in Sources */,
 				12627AFA1F42D6AF00B5E4F3 /* VidePreviewController.m in Sources */,
 				8DF838181F43EA86009BA0C1 /* CreateConfTypeChooseViewController.m in Sources */,
-				12627AF61F413DED00B5E4F3 /* UIViewController+CurrentViewController.m in Sources */,
 				124B28FC1F616A8100DBDD77 /* ECSDDLog.m in Sources */,
 				126C63AA1F38698E00048A9F /* LoginInfo.mm in Sources */,
 				124214EC1F442B2F00BDC932 /* VideoShareViewController.m in Sources */,
 				12C242091F31CEB600C21D91 /* NetworkUtils.mm in Sources */,
 				124B83871F3B06A800631769 /* DataConfParam.m in Sources */,
 				8DDC27DC1F3AEFDA00DE5353 /* ConfData.mm in Sources */,
+				DEB0BB5C2121847100D9ED78 /* CommonUtils.mm in Sources */,
 				124B29001F616A8100DBDD77 /* ECSDDMultiFormatter.m in Sources */,
 				126C63CD1F386A0700048A9F /* CallService.mm in Sources */,
 				8DDC27DA1F3AEFDA00DE5353 /* ConfAttendee.m in Sources */,
@@ -1436,12 +1113,13 @@
 				124B28DA1F616A3800DBDD77 /* ECSLogger.m in Sources */,
 				126C63AE1F38698E00048A9F /* ManagerService.m in Sources */,
 				124B28FF1F616A8100DBDD77 /* ECSDDDispatchQueueLogFormatter.m in Sources */,
+				DEB0BB5621216C0F00D9ED78 /* CallLogMessage.m in Sources */,
 				12C2420A1F31CEB600C21D91 /* VCReachability.m in Sources */,
 				12C23FBE1F31C06D00C21D91 /* AppDelegate.m in Sources */,
 				124B28FB1F616A8100DBDD77 /* ECSDDFileLogger.m in Sources */,
 				124B83891F3B06A800631769 /* DataConferenceService.m in Sources */,
 				126C63C81F386A0700048A9F /* CallData.mm in Sources */,
-				4122B22D1FFCDB610054D0E5 /* ETPModel.xcdatamodeld in Sources */,
+				DE2BFCC9212ADFE0002E5B9F /* ETPModel.xcdatamodeld in Sources */,
 				1258C1E61F399CF500654D80 /* ServiceManager.m in Sources */,
 				124B83851F3B06A800631769 /* ChatMsg.m in Sources */,
 				12C23FBB1F31C06D00C21D91 /* main.m in Sources */,
@@ -1452,7 +1130,6 @@
 				1258C1E31F39617A00654D80 /* Notification.m in Sources */,
 				41882B8120031A03006437DC /* VCAttendee.m in Sources */,
 				8DDC27DF1F3AEFDA00DE5353 /* ECConfInfo.m in Sources */,
-				419522631FBC3FFD00CA3429 /* CallLogMessage.m in Sources */,
 				8DDC27E11F3AEFDA00DE5353 /* ConferenceService.mm in Sources */,
 				D33717151FEB4B02009AB550 /* LoginAuthorizeInfo.m in Sources */,
 				124B28FD1F616A8100DBDD77 /* ECSDDTTYLogger.m in Sources */,
@@ -1612,32 +1289,12 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T2W92832FD;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend",
-					"$(PROJECT_DIR)/demoSDK",
-					"$(PROJECT_DIR)/Depend",
-					"$(PROJECT_DIR)/Demo_Depand/SDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Demo_Depand/SDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/ImSDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/lib",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/VC_SDK_DEMO/Depand";
 				GCC_PREFIX_HEADER = VC_SDK_DEMO/PrefixHeader.pch;
 				INFOPLIST_FILE = VC_SDK_DEMO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/eConf/lib/device",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/Voip/lib/device",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/lib",
-					"$(PROJECT_DIR)/lib",
-					"$(PROJECT_DIR)/Depend/TUP/lib",
-					"$(PROJECT_DIR)/demoSDK/lib",
-					"$(PROJECT_DIR)/Demo_Depand/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Demo_Depand/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/VC_SDK_DEMO/Depand";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.eSpaceMclientV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1656,32 +1313,12 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T2W92832FD;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend",
-					"$(PROJECT_DIR)/demoSDK",
-					"$(PROJECT_DIR)/Depend",
-					"$(PROJECT_DIR)/Demo_Depand/SDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Demo_Depand/SDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/ImSDK",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/lib",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/VC_SDK_DEMO/Depand";
 				GCC_PREFIX_HEADER = VC_SDK_DEMO/PrefixHeader.pch;
 				INFOPLIST_FILE = VC_SDK_DEMO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/eConf/lib/device",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/Voip/lib/device",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depend/TUP/lib",
-					"$(PROJECT_DIR)/lib",
-					"$(PROJECT_DIR)/Depend/TUP/lib",
-					"$(PROJECT_DIR)/demoSDK/lib",
-					"$(PROJECT_DIR)/Demo_Depand/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Demo_Depand/lib",
-					"$(PROJECT_DIR)/VC_SDK_DEMO/Depand/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/VC_SDK_DEMO/Depand";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.eSpaceMclientV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1746,20 +1383,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4122B2221FFCDB610054D0E5 /* ETPModel.xcdatamodeld */ = {
+		DE2BFCBE212ADFE0002E5B9F /* ETPModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4122B2231FFCDB610054D0E5 /* ETPModel 2.xcdatamodel */,
-				4122B2241FFCDB610054D0E5 /* ETPModel 3.xcdatamodel */,
-				4122B2251FFCDB610054D0E5 /* ETPModel 4.xcdatamodel */,
-				4122B2261FFCDB610054D0E5 /* ETPModel 5.xcdatamodel */,
-				4122B2271FFCDB610054D0E5 /* ETPModel 6.xcdatamodel */,
-				4122B2281FFCDB610054D0E5 /* ETPModel 7.xcdatamodel */,
-				4122B2291FFCDB610054D0E5 /* ETPModel 8.xcdatamodel */,
-				4122B22A1FFCDB610054D0E5 /* ETPModel 9.xcdatamodel */,
-				4122B22B1FFCDB610054D0E5 /* ETPModel.xcdatamodel */,
+				DE2BFCBF212ADFE0002E5B9F /* ETPModel 10.xcdatamodel */,
+				DE2BFCC0212ADFE0002E5B9F /* ETPModel 2.xcdatamodel */,
+				DE2BFCC1212ADFE0002E5B9F /* ETPModel 3.xcdatamodel */,
+				DE2BFCC2212ADFE0002E5B9F /* ETPModel 4.xcdatamodel */,
+				DE2BFCC3212ADFE0002E5B9F /* ETPModel 5.xcdatamodel */,
+				DE2BFCC4212ADFE0002E5B9F /* ETPModel 6.xcdatamodel */,
+				DE2BFCC5212ADFE0002E5B9F /* ETPModel 7.xcdatamodel */,
+				DE2BFCC6212ADFE0002E5B9F /* ETPModel 8.xcdatamodel */,
+				DE2BFCC7212ADFE0002E5B9F /* ETPModel 9.xcdatamodel */,
+				DE2BFCC8212ADFE0002E5B9F /* ETPModel.xcdatamodel */,
 			);
-			currentVersion = 4122B22A1FFCDB610054D0E5 /* ETPModel 9.xcdatamodel */;
+			currentVersion = DE2BFCBF212ADFE0002E5B9F /* ETPModel 10.xcdatamodel */;
 			path = ETPModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

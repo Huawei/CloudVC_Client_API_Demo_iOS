@@ -46,6 +46,12 @@ extern NSString *const CONFERENCE_CONNECT_NOTIFY;
 @property (nonatomic, assign) BOOL isJoinDataConf;
 
 /**
+ *Indicates whether xxxx
+ *判断是否一次会议中是否是第一次跳转界面
+ */
+@property (nonatomic, assign) BOOL isFirstJumpToRunningView;
+
+/**
  *Indicates whether have joined attendee array
  *与会者列表数组
  */

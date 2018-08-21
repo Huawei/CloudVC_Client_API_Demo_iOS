@@ -7,10 +7,10 @@
 //
 
 #import "ConferenceService.h"
-#import "tup_confctrl_interface.h"
-#import "tup_confctrl_def.h"
-#import "tup_confctrl_interface.h"
-#import "tup_conf_basedef.h"
+#import "HuaweiSDKService/tup_confctrl_interface.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_interface.h"
+#import "HuaweiSDKService/tup_conf_basedef.h"
 #include <arpa/inet.h>
 #import <netdb.h>
 #import <sys/socket.h>
@@ -29,7 +29,6 @@
 #import "DataConfParam+StructParse.h"
 #import "Defines.h"
 #import "DataParamSipInfo.h"
-#import "AppDelegate.h"
 #import "LoginAuthorizeInfo.h"
 #import "VCConfUpdateInfo.h"
 #import "VCAttendee.h"
@@ -46,7 +45,6 @@
 @property (nonatomic, assign) BOOL isNeedDataConfParam;           // has getDataConfParam or not
 @property (nonatomic, strong) NSMutableDictionary *confTokenDic;  // update conference token in SMC
 @property (nonatomic, assign) BOOL hasReportMediaxSpeak;          // has reportMediaxSpeak or not in Mediax
-@property (nonatomic, assign) BOOL isFirstJumpToRunningView;      // is first jump to runningViewController
 @property (nonatomic, assign) int networkType;
 
 @property (nonatomic, assign) int terminalDataRate;
@@ -63,6 +61,8 @@
 
 //creat getter and setter method of isJoinDataConf
 @synthesize isJoinDataConf;
+
+@synthesize isFirstJumpToRunningView;
 
 //creat getter and setter method of haveJoinAttendeeArray
 @synthesize haveJoinAttendeeArray;
@@ -119,7 +119,7 @@
         self.selfJoinNumber = nil;
         self.dataConfParamURLDic = [[NSMutableDictionary alloc]init];
         _hasReportMediaxSpeak = NO;
-        _isFirstJumpToRunningView = YES;
+        self.isFirstJumpToRunningView = YES;
         _BroadcastingT = -1;
     }
     return self;
@@ -806,10 +806,9 @@
 {
     [[NSNotificationCenter defaultCenter] postNotificationName:TUP_CALL_REMOVE_CALL_VIEW_NOTIFY object:nil];
     
-    if(_isFirstJumpToRunningView){
-        _isFirstJumpToRunningView = NO;
-        [AppDelegate goConference];
-    }
+//    if(self.isFirstJumpToRunningView){
+//        self.isFirstJumpToRunningView = NO;
+//    }
     
 }
 
@@ -1389,7 +1388,7 @@
     self.selfJoinNumber = nil;
     self.dataParam = nil;
     _hasReportMediaxSpeak = NO;
-    _isFirstJumpToRunningView = YES;
+    self.isFirstJumpToRunningView = YES;
     [self destroyConfHandle];
     _BroadcastingT = -1;
 }

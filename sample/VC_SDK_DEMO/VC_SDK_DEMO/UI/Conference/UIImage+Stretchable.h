@@ -6,10 +6,7 @@
 //  Copyright(C), 2017, Huawei Tech. Co., Ltd. ALL RIGHTS RESERVED.
 //
 #import <UIKit/UIKit.h>
-
-#define UIStretchableImage(imageName)                    [UIImage stretchableImageNamed:imageName]
-#define UIStretchableImageR(imageName, width, height)    [UIImage stretchableImageNamed:imageName relativeImageWidth:width relativeImageHeight:height]
-#define UIStretchableImageA(imageName, width, height)    [UIImage stretchableImageNamed:imageName withLeftCapWidth:width topCapHeight:height]
+#import "Defines.h"
 
 @interface UIImage (Stretchable)
 

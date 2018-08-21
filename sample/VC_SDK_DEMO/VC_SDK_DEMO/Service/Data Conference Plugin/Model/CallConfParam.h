@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "call_def.h"
+#import "HuaweiSDKService/call_def.h"
 
 @interface CallConfParam : NSObject
 

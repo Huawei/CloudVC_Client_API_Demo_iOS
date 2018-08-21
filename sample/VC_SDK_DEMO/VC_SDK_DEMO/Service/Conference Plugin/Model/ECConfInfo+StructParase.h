@@ -7,7 +7,7 @@
 //
 
 #import "ECConfInfo.h"
-#import "tup_confctrl_def.h"
+#import "HuaweiSDKService/tup_confctrl_def.h"
 
 @interface ECConfInfo (StructParase)
 +(ECConfInfo *)returnECConfInfoWith:(CONFCTRL_S_CONF_LIST_INFO)confListInfo;

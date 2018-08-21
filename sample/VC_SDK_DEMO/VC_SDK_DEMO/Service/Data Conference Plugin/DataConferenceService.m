@@ -7,11 +7,11 @@
 //
 
 #import "DataConferenceService.h"
-#import "tup_def.h"
-#import "tup_conf_baseapi.h"
-#import "tup_conf_basedef.h"
-#import "tup_conf_extendapi.h"
-#import "tup_conf_otherapi.h"
+#import "HuaweiSDKService/tup_def.h"
+#import "HuaweiSDKService/tup_conf_baseapi.h"
+#import "HuaweiSDKService/tup_conf_basedef.h"
+#import "HuaweiSDKService/tup_conf_extendapi.h"
+#import "HuaweiSDKService/tup_conf_otherapi.h"
 #import <UIKit/UIKit.h>
 #import "Defines.h"
 #import "DataConfParam.h"
@@ -25,8 +25,8 @@
 #import "ConfAttendeeInConf.h"
 #import "ParseConfXMLInfo.h"
 //#import "tup_confctrl_advanced_interface.h"
-#import "tup_conf_extenddef.h"
-#import "tup_conf_otherapi.h"
+#import "HuaweiSDKService/tup_conf_extenddef.h"
+#import "HuaweiSDKService/tup_conf_otherapi.h"
 #import "VCConfUpdateInfo.h"
 #import "LoginAuthorizeInfo.h"
 

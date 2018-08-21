@@ -11,7 +11,7 @@
 
 #import "Defines.h"
 #import "CallInfo.h"
-#import "TupHistory.h"
+#import "HuaweiSDKService/TupHistory.h"
 
 extern NSString *const NTF_AUDIOROUTE_CHANGED; // audio route changed notification
 

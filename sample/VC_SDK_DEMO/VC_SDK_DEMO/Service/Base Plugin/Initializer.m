@@ -8,13 +8,13 @@
 
 #import "Initializer.h"
 #import "Defines.h"
-#import "login_def.h"
-#import "login_interface.h"
-#import "call_def.h"
-#import "call_interface.h"
-#import "call_advanced_interface.h"
-#import "tup_service_interface.h"
-#import "tup_confctrl_interface.h"
+#import "HuaweiSDKService/login_def.h"
+#import "HuaweiSDKService/login_interface.h"
+#import "HuaweiSDKService/call_def.h"
+#import "HuaweiSDKService/call_interface.h"
+#import "HuaweiSDKService/call_advanced_interface.h"
+#import "HuaweiSDKService/tup_service_interface.h"
+#import "HuaweiSDKService/tup_confctrl_interface.h"
 #import <UIKit/UIKit.h>
 
 #define USER_AGENT_TE @"Huawei TE Mobile"

@@ -18,10 +18,6 @@
 #pragma mark IPv6 Support
 //VCReachability fully support IPv6.  For full details, see ReadMe.md.
 
-
-NSString *kReachabilityChangedNotification = @"kNetworkReachabilityChangedNotification";
-
-
 #pragma mark - Supporting functions
 
 #define kShouldPrintReachabilityFlags 1
