@@ -34,14 +34,10 @@
 		1258C1D01F3958F900654D80 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1CF1F3958F900654D80 /* AVFoundation.framework */; };
 		1258C1D21F3958FF00654D80 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1D11F3958FF00654D80 /* MediaPlayer.framework */; };
 		1258C1D41F39590400654D80 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1D31F39590400654D80 /* CoreMedia.framework */; };
-		1258C1D81F39593100654D80 /* libresolv.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1D51F39593100654D80 /* libresolv.9.dylib */; };
-		1258C1D91F39593100654D80 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1D61F39593100654D80 /* libstdc++.6.0.9.dylib */; };
-		1258C1DA1F39593100654D80 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1D71F39593100654D80 /* libz.1.dylib */; };
 		1258C1DD1F395B4B00654D80 /* Initializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1DC1F395B4B00654D80 /* Initializer.m */; };
 		1258C1E01F395B6100654D80 /* LoginCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1DF1F395B6100654D80 /* LoginCenter.m */; };
 		1258C1E31F39617A00654D80 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1E21F39617A00654D80 /* Notification.m */; };
 		1258C1E61F399CF500654D80 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1E51F399CF500654D80 /* ServiceManager.m */; };
-		1258C1EA1F39E27D00654D80 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1258C1E91F39E27D00654D80 /* libiconv.2.dylib */; };
 		1258C1EE1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1ED1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m */; };
 		1258C1F11F3AA01800654D80 /* LoginServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1F01F3AA01800654D80 /* LoginServerInfo.m */; };
 		1258C1F71F3C828000654D80 /* DeviceMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258C1F61F3C828000654D80 /* DeviceMotionManager.m */; };
@@ -127,6 +123,7 @@
 		8DF8381C1F43EA86009BA0C1 /* NSString+SizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF838111F43EA86009BA0C1 /* NSString+SizeWithFont.m */; };
 		8DF8381D1F43EA86009BA0C1 /* UIImage+Stretchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF838131F43EA86009BA0C1 /* UIImage+Stretchable.m */; };
 		8DF838461F44019A009BA0C1 /* ConfDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF838441F44019A009BA0C1 /* ConfDetailViewController.m */; };
+		ACCB64AA21537CC30073B8E7 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB64A821537CC30073B8E7 /* BaseNavigationController.m */; };
 		D33717151FEB4B02009AB550 /* LoginAuthorizeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D33717141FEB4B02009AB550 /* LoginAuthorizeInfo.m */; };
 		D36DDC631FF5F22B0032B52E /* VCConfUpdateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D36DDC621FF5F22B0032B52E /* VCConfUpdateInfo.m */; };
 		DE2BFCBA212ADF26002E5B9F /* HuaweiSDKService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2BFCB8212ADF26002E5B9F /* HuaweiSDKService.framework */; };
@@ -218,9 +215,6 @@
 		1258C1CF1F3958F900654D80 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1258C1D11F3958FF00654D80 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		1258C1D31F39590400654D80 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		1258C1D51F39593100654D80 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = ../../../../../usr/lib/libresolv.9.dylib; sourceTree = "<group>"; };
-		1258C1D61F39593100654D80 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
-		1258C1D71F39593100654D80 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		1258C1DB1F395B4B00654D80 /* Initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
 		1258C1DC1F395B4B00654D80 /* Initializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
 		1258C1DE1F395B6100654D80 /* LoginCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCenter.h; sourceTree = "<group>"; };
@@ -229,7 +223,6 @@
 		1258C1E21F39617A00654D80 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
 		1258C1E41F399CF500654D80 /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
 		1258C1E51F399CF500654D80 /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
-		1258C1E91F39E27D00654D80 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
 		1258C1EC1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoginServerInfo+uportalInfo.h"; sourceTree = "<group>"; };
 		1258C1ED1F3A9FBF00654D80 /* LoginServerInfo+uportalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoginServerInfo+uportalInfo.m"; sourceTree = "<group>"; };
 		1258C1EF1F3AA01800654D80 /* LoginServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginServerInfo.h; sourceTree = "<group>"; };
@@ -380,6 +373,8 @@
 		8DF838131F43EA86009BA0C1 /* UIImage+Stretchable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stretchable.m"; sourceTree = "<group>"; };
 		8DF838431F44019A009BA0C1 /* ConfDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfDetailViewController.h; sourceTree = "<group>"; };
 		8DF838441F44019A009BA0C1 /* ConfDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfDetailViewController.m; sourceTree = "<group>"; };
+		ACCB64A821537CC30073B8E7 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		ACCB64A921537CC30073B8E7 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		D33717131FEB4B02009AB550 /* LoginAuthorizeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAuthorizeInfo.h; sourceTree = "<group>"; };
 		D33717141FEB4B02009AB550 /* LoginAuthorizeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAuthorizeInfo.m; sourceTree = "<group>"; };
 		D36DDC611FF5F22B0032B52E /* VCConfUpdateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCConfUpdateInfo.h; sourceTree = "<group>"; };
@@ -424,10 +419,6 @@
 				4122B2321FFCDE130054D0E5 /* AddressBook.framework in Frameworks */,
 				4122B2331FFCDE130054D0E5 /* AddressBookUI.framework in Frameworks */,
 				4122B2341FFCDE130054D0E5 /* CFNetwork.framework in Frameworks */,
-				1258C1EA1F39E27D00654D80 /* libiconv.2.dylib in Frameworks */,
-				1258C1D81F39593100654D80 /* libresolv.9.dylib in Frameworks */,
-				1258C1D91F39593100654D80 /* libstdc++.6.0.9.dylib in Frameworks */,
-				1258C1DA1F39593100654D80 /* libz.1.dylib in Frameworks */,
 				1258C1D41F39590400654D80 /* CoreMedia.framework in Frameworks */,
 				1258C1D21F3958FF00654D80 /* MediaPlayer.framework in Frameworks */,
 				1258C1D01F3958F900654D80 /* AVFoundation.framework in Frameworks */,
@@ -568,6 +559,8 @@
 				12627AF71F42D68700B5E4F3 /* Me */,
 				126C638D1F38676C00048A9F /* ViewController.h */,
 				126C638E1F38676C00048A9F /* ViewController.m */,
+				ACCB64A921537CC30073B8E7 /* BaseNavigationController.h */,
+				ACCB64A821537CC30073B8E7 /* BaseNavigationController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -804,10 +797,6 @@
 				4122B22F1FFCDE130054D0E5 /* AddressBook.framework */,
 				4122B2301FFCDE130054D0E5 /* AddressBookUI.framework */,
 				4122B2311FFCDE130054D0E5 /* CFNetwork.framework */,
-				1258C1E91F39E27D00654D80 /* libiconv.2.dylib */,
-				1258C1D51F39593100654D80 /* libresolv.9.dylib */,
-				1258C1D61F39593100654D80 /* libstdc++.6.0.9.dylib */,
-				1258C1D71F39593100654D80 /* libz.1.dylib */,
 				1258C1D31F39590400654D80 /* CoreMedia.framework */,
 				1258C1D11F3958FF00654D80 /* MediaPlayer.framework */,
 				1258C1CF1F3958F900654D80 /* AVFoundation.framework */,
@@ -1069,6 +1058,7 @@
 				124B28F81F616A8100DBDD77 /* ECSDDAbstractDatabaseLogger.m in Sources */,
 				126C63A91F38698E00048A9F /* CallInfo.mm in Sources */,
 				8D9FCCDD1F45357B00A8216F /* AttendeeTableView.m in Sources */,
+				ACCB64AA21537CC30073B8E7 /* BaseNavigationController.m in Sources */,
 				8DF8381A1F43EA86009BA0C1 /* EmptyDataView.m in Sources */,
 				12627B001F42F7D700B5E4F3 /* SettingViewController.m in Sources */,
 				126C63811F38675800048A9F /* CallEndView.m in Sources */,
@@ -1226,7 +1216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1271,7 +1261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

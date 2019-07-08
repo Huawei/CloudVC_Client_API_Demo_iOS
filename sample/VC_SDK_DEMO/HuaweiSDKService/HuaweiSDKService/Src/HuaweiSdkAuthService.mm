@@ -2,15 +2,15 @@
 #include "HuaweiSdkAuthService.h"
 
 
-TUP_API TUP_RESULT huawei_tup_service_startup(TUP_S_INIT_PARAM *param)
-{
-    return tup_service_startup(param);
-}
-
-TUP_API TUP_RESULT huawei_tup_service_shutdown()
-{
-    return tup_service_shutdown();
-}
+//TUP_API TUP_RESULT huawei_tup_service_startup(TUP_S_INIT_PARAM *param)
+//{
+//    return tup_service_startup(param);
+//}
+//
+//TUP_API TUP_RESULT huawei_tup_service_shutdown()
+//{
+//    return tup_service_shutdown();
+//}
 
 
 TUP_RESULT huawei_tup_login_log_start(IN LOGIN_E_LOG_LEVEL  log_level, IN TUP_INT32 max_size_kb, IN TUP_INT32 file_count, IN const TUP_CHAR* log_path)

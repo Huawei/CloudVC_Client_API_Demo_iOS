@@ -19,6 +19,19 @@
 
 @implementation ViewController
 
+
+- (BOOL)shouldAutorotate {
+    return self.selectedViewController.shouldAutorotate;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return self.selectedViewController.supportedInterfaceOrientations;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    return self.selectedViewController.preferredInterfaceOrientationForPresentation;
+}
+
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

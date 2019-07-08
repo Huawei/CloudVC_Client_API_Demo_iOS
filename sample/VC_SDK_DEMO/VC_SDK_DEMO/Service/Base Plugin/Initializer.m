@@ -124,12 +124,17 @@ TUP_VOID onTupConferenceCallBack(TUP_UINT32 msgid, TUP_UINT32 param1, TUP_UINT32
  */
 + (BOOL)startupWithLogPath:(NSString *)logPath
 {
-    TUP_RESULT ret_startup = tup_service_startup(NULL);
-    if (ret_startup != TUP_SUCCESS) {
+//    TUP_RESULT ret_startup = tup_service_startup(NULL);
+//    if (ret_startup != TUP_SUCCESS) {
+//        return NO;
+//    }
+    
+    BOOL result = [self callStartupWithLogPath:logPath];
+    if (!result) {
         return NO;
     }
     
-    BOOL result = [self loginStartupWithLogPath:logPath];
+    result = [self loginStartupWithLogPath:logPath];
     if (!result) {
         return NO;
     }

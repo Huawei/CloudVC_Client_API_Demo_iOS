@@ -319,9 +319,13 @@ static LoginCenter *g_loginCenter = nil;
                 return;
             } else {
                 DDLogInfo(@"SMC authorize successed!");
-                NSString *smcserver = [NSString stringWithUTF8String:smcInfo->smc_servers->server_uri];
-                int port = smcInfo->smc_servers->server_port;
-                NSString *url = [NSString stringWithFormat:@"https://%@:%d",smcserver,port];
+                NSArray *array = [CommonUtils getUserDefaultValueWithKey:SERVER_CONFIG];
+                NSString *url = [NSString stringWithFormat:@"https://%@:443",array[0]];
+//                if (smcInfo != nil) {
+//                    NSString *smcserver = [NSString stringWithUTF8String:smcInfo->smc_servers->server_uri];
+//                    int port = smcInfo->smc_servers->server_port;
+//                    url = [NSString stringWithFormat:@"https://%@:%d",smcserver,port];
+//                }
                 _authorizeInfo.smcUrl = url;
                 [CommonUtils userDefaultSaveValue:url forKey:@"smcUrl"];
                 DDLogInfo(@"smc server is :%@",url);
