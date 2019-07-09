@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE51609422B272A9005D0ECA /* libtup_cwmp_h5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE51608022B272A7005D0ECA /* libtup_cwmp_h5.a */; };
-		DE5160C222B272BB005D0ECA /* httpapi_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5160AC22B272B9005D0ECA /* httpapi_interface.h */; };
-		DE5160C822B272BB005D0ECA /* httpapi_def.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5160B222B272BA005D0ECA /* httpapi_def.h */; };
-		DE5160D022B27329005D0ECA /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5160CF22B27328005D0ECA /* libiconv.2.4.0.tbd */; };
 		DE55F51E222CB51900ABC457 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE55F51D222CB51900ABC457 /* libc++.tbd */; };
 		DE8611CA212ACB2400E603C9 /* HuaweiSdkAuthService.h in Headers */ = {isa = PBXBuildFile; fileRef = DE861160212ACB2400E603C9 /* HuaweiSdkAuthService.h */; };
 		DE8611CB212ACB2400E603C9 /* HuaweiSdkAuthService.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE861161212ACB2400E603C9 /* HuaweiSdkAuthService.mm */; };
@@ -139,10 +135,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE51608022B272A7005D0ECA /* libtup_cwmp_h5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_cwmp_h5.a; sourceTree = "<group>"; };
-		DE5160AC22B272B9005D0ECA /* httpapi_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpapi_interface.h; sourceTree = "<group>"; };
-		DE5160B222B272BA005D0ECA /* httpapi_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpapi_def.h; sourceTree = "<group>"; };
-		DE5160CF22B27328005D0ECA /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		DE55F51D222CB51900ABC457 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		DE8610DA212ACABD00E603C9 /* HuaweiSDKService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaweiSDKService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8610DE212ACABD00E603C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -286,7 +278,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5160D022B27329005D0ECA /* libiconv.2.4.0.tbd in Frameworks */,
 				DE55F51E222CB51900ABC457 /* libc++.tbd in Frameworks */,
 				DE8612C6212ACF1C00E603C9 /* libtup_socket_stg.a in Frameworks */,
 				DE861209212ACD9B00E603C9 /* libresolv.9.tbd in Frameworks */,
@@ -318,7 +309,6 @@
 				DE8611FF212ACD6700E603C9 /* Security.framework in Frameworks */,
 				DE8612B6212ACF1C00E603C9 /* libtup_exception.a in Frameworks */,
 				DE8611FD212ACD5F00E603C9 /* SystemConfiguration.framework in Frameworks */,
-				DE51609422B272A9005D0ECA /* libtup_cwmp_h5.a in Frameworks */,
 				DE8611FB212ACD5800E603C9 /* CoreAudio.framework in Frameworks */,
 				DE8612A9212ACF1C00E603C9 /* libtup_call_audio.a in Frameworks */,
 				DE8612C9212ACF1C00E603C9 /* libtup_tools.a in Frameworks */,
@@ -433,7 +423,6 @@
 		DE8611D7212ACC3300E603C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE5160CF22B27328005D0ECA /* libiconv.2.4.0.tbd */,
 				DE55F51D222CB51900ABC457 /* libc++.tbd */,
 				DE861208212ACD9B00E603C9 /* libresolv.9.tbd */,
 				DE861206212ACD9300E603C9 /* libz.1.2.11.tbd */,
@@ -475,8 +464,6 @@
 		DE86120B212ACF1B00E603C9 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				DE5160B222B272BA005D0ECA /* httpapi_def.h */,
-				DE5160AC22B272B9005D0ECA /* httpapi_interface.h */,
 				DE86120C212ACF1B00E603C9 /* call_advanced_def.h */,
 				DE86120D212ACF1B00E603C9 /* call_advanced_interface.h */,
 				DE86120E212ACF1B00E603C9 /* call_def.h */,
@@ -506,7 +493,6 @@
 		DE861223212ACF1C00E603C9 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				DE51608022B272A7005D0ECA /* libtup_cwmp_h5.a */,
 				DE861224212ACF1C00E603C9 /* ETPModel.xcdatamodeld */,
 				DE86122F212ACF1C00E603C9 /* libcrypto.a */,
 				DE861230212ACF1C00E603C9 /* libcurl.a */,
@@ -585,7 +571,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE861284212ACF1C00E603C9 /* tup_def.h in Headers */,
-				DE5160C222B272BB005D0ECA /* httpapi_interface.h in Headers */,
 				DE861275212ACF1C00E603C9 /* call_advanced_def.h in Headers */,
 				DE861285212ACF1C00E603C9 /* tup_kmc_interface.h in Headers */,
 				DE86128B212ACF1C00E603C9 /* tupTools.h in Headers */,
@@ -613,7 +598,6 @@
 				DE8611D0212ACB2400E603C9 /* HuaweiSdkContactsService.h in Headers */,
 				DE8611CA212ACB2400E603C9 /* HuaweiSdkAuthService.h in Headers */,
 				DE8611D4212ACB2400E603C9 /* HuaweiSdkDataCoordinationService.h in Headers */,
-				DE5160C822B272BB005D0ECA /* httpapi_def.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
